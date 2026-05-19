@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=ff0000&height=200&section=header&text=Júlio%20Caliberda&fontSize=80&fontAlignY=35&animation=twinkling&desc=Tech%20Product%20Manager%20|%20Automation%20Architect&descAlignY=55&descAlign=50&fontColor=ffffff&reversal=true"/>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=ff0000&height=200&section=header&text=Júlio%20Caliberda&fontSize=80&fontAlignY=35&animation=twinkling&desc=Tech%20Product%20Manager%20|%20AI-Augmented%20Architect&descAlignY=55&descAlign=50&fontColor=ffffff&reversal=true"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=ff0000&center=true&vCenter=true&width=600&height=50&lines=Kali+Tech+Product+Manager;Automation+%26+Ops+Specialist;Resolutive+Architectures;UI%2FUX+Engineering" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=ff0000&center=true&vCenter=true&width=600&height=50&lines=Kali+Tech+Product+Manager;AI-Driven+Engineering;Resolutive+Architectures;UI%2FUX+Premium" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -22,10 +22,10 @@
 
 ## 🩸 Quem é Júlio Caliberda?
 
-Movo-me na interseção exata entre a visão de negócios e a execução técnica pura. Utilizo **IA Preditiva**, **Low-Code/No-Code (n8n)** e engenharia de processos para eliminar o caos operacional e garantir entregas de produto com impacto direto no faturamento.
+Movo-me na interseção exata entre a visão de negócios e a execução técnica. Não sou um desenvolvedor tradicional; atuo como um **Tech PM e Arquiteto guiado por IA**. Utilizo ferramentas de Inteligência Artificial, Low-Code (n8n) e engenharia de processos para traduzir dores complexas em produtos reais de forma ultrarrápida.
 
-* 🔴 **Foco Principal:** Product Operations, n8n, Integrações LLM e UI/UX Premium.
-* ⚡ **Missão:** Traduzir dores complexas de negócios em arquiteturas resolutivas e escaláveis.
+* 🔴 **Foco Principal:** Orquestração de IA, Product Operations, Automações (n8n) e UI/UX Premium.
+* ⚡ **Missão:** Eliminar o caos operacional e garantir entregas escaláveis com impacto direto no faturamento.
 
 ---
 
@@ -35,29 +35,31 @@ Movo-me na interseção exata entre a visão de negócios e a execução técnic
   <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,n8n,figma,aws,docker,linux,git" />
 </div>
 
-*(Nota Técnico: Forte atuação diária com **n8n**, Integrações de APIs REST, Webhooks e Jira/Agile)*
+*(Nota Técnica: Alta capacidade de prototipação, integração de APIs REST, Webhooks e deploy de arquiteturas auxiliadas por LLMs)*
 
 ---
 
 ## 🚀 Ecossistema de Produtos & Projetos
 
-### 💼 1. Enterprise, SaaS & Automação
-Produtos focados em alta densidade de transações, gestão e conversão B2B.
+Abaixo estão as soluções que arquitetei e coloquei em produção. **Clique nos nomes para acessar as plataformas.**
+
+### 💼 1. Enterprise, SaaS & Web Apps
+Soluções focadas em gestão financeira, alta conversão e interfaces frictionless.
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **Financial Kali** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
-| **Release Radar** | Stakeholder Hub de transparência. SPA desenvolvida para alinhamento de roadmap de engenharia entre times não-técnicos e C-Level. |
-| **Kali Dash** | Command Center de Product Ops focado no mapeamento e resolução de gargalos operacionais e tracking de Sprints. |
+| **[Financial Kali](https://www.caliberda.com.br/kali)** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
+| **[Modal de Check-in](https://modal.caliberda.com.br/)** | Interface de alta conversão para cadastro e check-in ágil de hóspedes em hotéis, focada em redução absoluta de atrito (Frictionless UX). |
 
-### 🎙️ 2. Creator Hubs & 🎮 Infra
-Projetos B2C otimizados para performance, conversão e estabilidade de sistemas.
+### 🎙️ 2. Creator Economy, Infra & Gaming
+Projetos otimizados para performance, conversão B2C e balanceamento algorítmico.
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **Creator Hubs B2C** | Plataformas linktree avançadas com streaming integrados para <a href="https://karolzk.com.br" target="_blank">Karol ZK</a> e <a href="https://isatiton.com.br" target="_blank">Isa Titon</a>. |
-| **Minecraft Modpack** | Modpack otimizado no nível de kernel (Fabric/Sodium) para estabilidade extrema de tick e renderização de LOD. |
-| **CS2 Optimizer** | Balanceamento algorítmico de times via extração de dados da API do Leetify para extração de métricas reais. |
+| **Creator Hubs B2C** | Plataformas linktree avançadas com streaming integrados para [Karol ZK](https://karolzk.com.br) e [Isa Titon](https://isatiton.com.br). |
+| **[CS2 Optimizer](https://www.caliberda.com.br/cs2mix)** | Balanceamento algorítmico de times via consumo da API do Leetify para extração de métricas reais de jogadores. |
+| **[Minecraft Modpack](https://www.caliberda.com.br/minecraft)** | Modpack otimizado no nível de kernel (Fabric/Sodium) configurado para estabilidade extrema de tick e renderização. |
+| **[Neon Strike](https://neonstrike.caliberda.com.br/)** | Shooter cibernético estilo arcade com arquitetura de ranking global em tempo real e mecânicas de evolução. |
 
 ---
 
