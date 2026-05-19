@@ -61,19 +61,19 @@ Otimização de sistemas complexos e balanceamento algorítmico.
 
 ## 📊 Analytics em Tempo Real
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/cesarkali">
-    <img src="https://github-readme-stats.vercel.app/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=00d4ff&title_color=0070f3&include_all_commits=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.shion.dev/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=00d4ff&title_color=0070f3" alt="GitHub Stats" height="165" />
   </a>
   <a href="https://github.com/cesarkali">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=0070f3" alt="Top Languages" />
+    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=0070f3" alt="Top Languages" height="165" />
   </a>
-</div>
+</p>
 
-<div align="center">
-  <br>
-  <p>
-    <i>Construindo na velocidade do pensamento.</i><br>
-    © 2026 Júlio Caliberda.
-  </p>
+<br>
+
+<p align="center">
+  <i>Construindo na velocidade do pensamento.</i><br>
+  © 2026 Júlio Caliberda.
+</p>
 </div>
