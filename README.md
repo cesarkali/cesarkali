@@ -1,61 +1,66 @@
 <div align="center">
-  
-  # Júlio Caliberda
-  ### Tech Product Manager & Especialista em Automação ⚡
-  
-  [![Website](https://img.shields.io/badge/Hub_Central-caliberda.com.br-0a0a0a?style=for-the-badge&logo=vercel)](https://www.caliberda.com.br)
-  [![Portfólio](https://img.shields.io/badge/Ver_Portfólio-portifolio.caliberda.com.br-00d4ff?style=for-the-badge&logo=polywork&logoColor=black)](https://portifolio.caliberda.com.br)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/SEU_LINKEDIN_AQUI)
-  [![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail)](mailto:julio@caliberda.com.br)
-
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=ff0000&height=200&section=header&text=Júlio%20Caliberda&fontSize=80&fontAlignY=35&animation=twinkling&desc=Tech%20Product%20Manager%20|%20Automation%20Architect&descAlignY=55&descAlign=50&fontColor=ffffff&reversal=true"/>
 </div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=ff0000&center=true&vCenter=true&width=600&height=50&lines=Kali+Tech+Product+Manager;Automation+%26+Ops+Specialist;Resolutive+Architectures;UI%2FUX+Engineering" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <a href="https://www.caliberda.com.br" target="_blank">
+    <img src="https://img.shields.io/badge/Hub_Central-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+  <a href="https://portifolio.caliberda.com.br" target="_blank">
+    <img src="https://img.shields.io/badge/Ver_Portfólio-ff0000?style=for-the-badge&logo=polywork&logoColor=black">
+  </a>
+  <a href="https://linkedin.com/in/hxtdll" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-ff0000?style=for-the-badge&logo=linkedin&logoColor=black">
+  </a>
+  <a href="mailto:julio@caliberda.com.br" target="_blank">
+    <img src="https://img.shields.io/badge/Email-ff0000?style=for-the-badge&logo=gmail&logoColor=black">
+  </a>
+</div>
+
+<br>
+
+## 🩸 Quem é Júlio Caliberda?
+
+Movo-me na interseção exata entre a visão de negócios e a execução técnica pura. Utilizo **IA Preditiva**, **Low-Code/No-Code (n8n)** e engenharia de processos para eliminar o caos operacional e garantir entregas de produto com impacto direto no faturamento.
+
+* 🔴 **Foco Principal:** Product Operations, n8n, Integrações LLM e UI/UX Premium.
+* ⚡ **Missão:** Traduzir dores complexas de negócios em arquiteturas resolutivas e escaláveis.
 
 ---
 
-## 🎯 Visão Executiva
+## 🛠️ Stack & Arsenal Técnico
 
-Na interseção exata entre a visão de negócios e a execução técnica. Como **Product Manager**, atuo traduzindo dores complexas em arquiteturas resolutivas. Utilizo IA, Low-Code e engenharia de processos para eliminar o caos operacional, garantindo entregas ágeis, previsíveis e com impacto direto no resultado da empresa.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,n8n,figma,aws,docker,linux,git" />
+</div>
 
-> 💡 **Conheça meu histórico e cases de impacto acessando o meu [Portfólio Executivo](https://portifolio.caliberda.com.br).**
-
-### 🛠️ Stack & Arsenal Técnico
-Minha base técnica me permite prototipar soluções reais, conversar de igual para igual com a engenharia e automatizar gargalos antes que eles travem a operação:
-* **Product & Ops:** Product Operations, Stakeholder Management, Agile (Scrum/Kanban), Jira
-* **Data & Automação:** n8n, Webhooks, APIs REST, Integrações LLM (IA Preditiva)
-* **Engenharia Front-end:** JavaScript (ES6+), Tailwind CSS, UI/UX Premium (Design Systems, Bento Grid, Glassmorphism)
+*(Nota Técnica: Forte atuação diária com **n8n**, Integrações de APIs REST, Webhooks e Jira/Agile)*
 
 ---
 
 ## 🚀 Ecossistema de Produtos & Projetos
 
-Abaixo está o mapeamento dos ecossistemas que desenvolvo, gerencio e escalo. Visite meu [Hub Central](https://www.caliberda.com.br) para explorar os cases a fundo.
-
 ### 💼 1. Enterprise, SaaS & Automação
-Produtos focados em alta densidade de transações, gestão e conversão.
+Produtos focados em alta densidade de transações, gestão e conversão B2B.
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **Financial Kali** | SaaS Full-Stack de gestão financeira com IA preditiva. Arquitetura escalável projetada para alta densidade de transações e analytics financeiro em tempo real. |
-| **Release Radar** | Stakeholder Hub de transparência. SPA desenvolvida para alinhar times não-técnicos (Vendas, CS, Diretoria) com o Roadmap de engenharia. |
-| **Kali Dash** | Command Center de Product Ops. Dashboard de alta performance focado no mapeamento, resolução de gargalos operacionais e tracking. |
-| **Modal de Check-in** | Interface de alta conversão para cadastro e check-in ágil de hóspedes em hotéis, focada em redução de atrito (Frictionless UX). |
+| **Financial Kali** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
+| **Release Radar** | Stakeholder Hub de transparência. SPA desenvolvida para alinhamento de roadmap de engenharia entre times não-técnicos e C-Level. |
+| **Kali Dash** | Command Center de Product Ops focado no mapeamento e resolução de gargalos operacionais e tracking de Sprints. |
 
-### 🎙️ 2. Creator Economy (Hubs B2C)
-Plataformas otimizadas para conversão de público e centralização de identidade digital.
-
-| Projeto | Descrição |
-| :--- | :--- |
-| **Karol ZK // Creator Hub** | Plataforma linktree avançada com integração de live streaming e centralização de redes sociais para criadora de conteúdo. |
-| **Isa Titon // Creator Hub** | Hub de links otimizado para conversão de público, com player da Twitch integrado e design focado na identidade da streamer. |
-
-### 🎮 3. Infraestrutura & Gaming
-Otimização de sistemas complexos e balanceamento algorítmico.
+### 🎙️ 2. Creator Hubs & 🎮 Infra
+Projetos B2C otimizados para performance, conversão e estabilidade de sistemas.
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **Minecraft Modpack** | Modpack otimizado no nível de kernel (Fabric/Sodium) configurado para multiplayer imersivo, LOD expansivo e estabilidade de tick. |
-| **CS2 Mix Optimizer** | Balanceamento e organização inteligente de times via consumo da API do Leetify para extração de dados e métricas reais de jogadores. |
-| **Neon Strike** | Shooter cibernético estilo arcade com arquitetura de ranking global em tempo real e mecânicas de evolução. |
+| **Creator Hubs B2C** | Plataformas linktree avançadas com streaming integrados para [Karol ZK](https://karolzk.com.br) e [Isa Titon](https://isatiton.com.br). |
+| **Minecraft Modpack** | Modpack otimizado no nível de kernel (Fabric/Sodium) para estabilidade extrema de tick e renderização de LOD. |
+| **CS2 Optimizer** | Balanceamento algorítmico de times via extração de dados da API do Leetify para extração de métricas reais. |
 
 ---
 
@@ -63,17 +68,23 @@ Otimização de sistemas complexos e balanceamento algorítmico.
 
 <p align="center">
   <a href="https://github.com/cesarkali">
-    <img src="https://github-readme-stats.shion.dev/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=00d4ff&title_color=0070f3" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-stats.shion.dev/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=ff0000&title_color=ff0000&include_all_commits=true" alt="GitHub Stats" height="165" />
   </a>
   <a href="https://github.com/cesarkali">
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=0070f3" alt="Top Languages" height="165" />
+    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=ff0000" alt="Top Languages" height="165" />
   </a>
 </p>
 
-<br>
+<div align="center">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=cesarkali&color=ff0000&label=Views+do+Perfil" alt="Profile views" />
+  <br>
+  <p>
+    <i>Construindo na velocidade do pensamento.</i><br>
+    © <a href="https://caliberda.com.br/easteregg" target="_blank">2026</a> Júlio Caliberda.
+  </p>
+</div>
 
-<p align="center">
-  <i>Construindo na velocidade do pensamento.</i><br>
-  © 2026 Júlio Caliberda.
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a&height=100&section=footer" />
 </div>
