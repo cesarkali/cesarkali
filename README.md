@@ -3,7 +3,8 @@
   # Júlio Caliberda
   ### Tech Product Manager & Especialista em Automação ⚡
   
-  [![Website](https://img.shields.io/badge/Website-caliberda.com.br-0a0a0a?style=for-the-badge&logo=vercel)](https://www.caliberda.com.br)
+  [![Website](https://img.shields.io/badge/Hub_Central-caliberda.com.br-0a0a0a?style=for-the-badge&logo=vercel)](https://www.caliberda.com.br)
+  [![Portfólio](https://img.shields.io/badge/Ver_Portfólio-portifolio.caliberda.com.br-00d4ff?style=for-the-badge&logo=polywork&logoColor=black)](https://portifolio.caliberda.com.br)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/SEU_LINKEDIN_AQUI)
   [![Email](https://img.shields.io/badge/Email-Contact-ea4335?style=for-the-badge&logo=gmail)](mailto:julio@caliberda.com.br)
 
@@ -14,6 +15,8 @@
 ## 🎯 Visão Executiva
 
 Na interseção exata entre a visão de negócios e a execução técnica. Como **Product Manager**, atuo traduzindo dores complexas em arquiteturas resolutivas. Utilizo IA, Low-Code e engenharia de processos para eliminar o caos operacional, garantindo entregas ágeis, previsíveis e com impacto direto no resultado da empresa.
+
+> 💡 **Conheça meu histórico e cases de impacto acessando o meu [Portfólio Executivo](https://portifolio.caliberda.com.br).**
 
 ### 🛠️ Stack & Arsenal Técnico
 Minha base técnica me permite prototipar soluções reais, conversar de igual para igual com a engenharia e automatizar gargalos antes que eles travem a operação:
@@ -42,8 +45,8 @@ Plataformas otimizadas para conversão de público e centralização de identida
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **Karol ZK // Creator Hub** | Plataforma linktree avançada com integração de live streaming e centralização de redes sociais para criadora de conteúdo. ([Acessar](https://karolzk.com.br)) |
-| **Isa Titon // Creator Hub** | Hub de links otimizado para conversão de público, com player da Twitch integrado e design focado na identidade da streamer. ([Acessar](https://isatiton.com.br)) |
+| **Karol ZK // Creator Hub** | Plataforma linktree avançada com integração de live streaming e centralização de redes sociais para criadora de conteúdo. |
+| **Isa Titon // Creator Hub** | Hub de links otimizado para conversão de público, com player da Twitch integrado e design focado na identidade da streamer. |
 
 ### 🎮 3. Infraestrutura & Gaming
 Otimização de sistemas complexos e balanceamento algorítmico.
@@ -59,13 +62,17 @@ Otimização de sistemas complexos e balanceamento algorítmico.
 ## 📊 Analytics em Tempo Real
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=00d4ff&title_color=0070f3&include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=0070f3" alt="Top Languages" width="48%" />
+  <a href="https://github.com/cesarkali">
+    <img src="https://github-readme-stats.vercel.app/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=00d4ff&title_color=0070f3&include_all_commits=true" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/cesarkali">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=0070f3" alt="Top Languages" />
+  </a>
 </div>
 
 <div align="center">
   <br>
-  <p class="text-zinc-500">
+  <p>
     <i>Construindo na velocidade do pensamento.</i><br>
     © 2026 Júlio Caliberda.
   </p>
