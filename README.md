@@ -80,7 +80,7 @@ Projetos otimizados para performance, conversão B2C e balanceamento algorítmic
   <br>
   <p>
     <i>Construindo na velocidade do pensamento.</i><br>
-    © <a href="https://caliberda.com.br/easteregg" target="_blank">2026</a> Júlio Caliberda.
+    © <a href="https://caliberda.com.br/" target="_blank">2026</a> Júlio Caliberda.
   </p>
 </div>
 
