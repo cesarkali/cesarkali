@@ -48,7 +48,7 @@ Soluções focadas em gestão financeira, alta conversão e interfaces frictionl
 
 | Projeto | Descrição |
 | :--- | :--- |
-| **[Financial Kali](https://www.caliberda.com.br/kali)** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
+| **[Financial Kali](https://kali.caliberda.com.br/)** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
 | **[Modal de Check-in](https://modal.caliberda.com.br/)** | Interface de alta conversão para cadastro e check-in ágil de hóspedes em hotéis, focada em redução absoluta de atrito (Frictionless UX). |
 
 ### 🎙️ 2. Creator Economy, Infra & Gaming
