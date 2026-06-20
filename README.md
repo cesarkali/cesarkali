@@ -50,8 +50,16 @@ Soluções focadas em gestão financeira, alta conversão e interfaces frictionl
 | :--- | :--- |
 | **[Financial Kali](https://kali.caliberda.com.br/)** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
 | **[Modal de Check-in](https://modal.caliberda.com.br/)** | Interface de alta conversão para cadastro e check-in ágil de hóspedes em hotéis, focada em redução absoluta de atrito (Frictionless UX). |
+| **[CNPJ API](https://github.com/cesarkali/ccnpj)** | API REST em FastAPI para consulta de dados cadastrais de empresas brasileiras a partir do CNPJ, agregando múltiplas fontes (ReceitaWS, Minha Receita) com deploy serverless na Vercel. |
 
-### 🎙️ 2. Creator Economy, Infra & Gaming
+### 🤖 2. AI Tools & Produtividade
+Ferramentas de produtividade pessoal potencializadas por IA, com foco em automação de tarefas do dia a dia.
+
+| Projeto | Descrição |
+| :--- | :--- |
+| **[FlowVoice](https://github.com/cesarkali/Flow-Voice)** | Utilitário de ditado por voz com IA para Windows e Ubuntu. Transcreve, traduz e polui o texto automaticamente em qualquer campo do sistema via atalho global, com múltiplos provedores de IA (Gemini, OpenAI, Groq) e modo 100% offline via Whisper local. |
+
+### 🎙️ 3. Creator Economy, Infra & Gaming
 Projetos otimizados para performance, conversão B2C e balanceamento algorítmico.
 
 | Projeto | Descrição |
