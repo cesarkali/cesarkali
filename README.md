@@ -167,8 +167,6 @@ And plenty of others left behind, because part of building is accepting that not
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg"><img src="assets/en/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
 
-<sub>This updates itself every day, through a routine that runs right here in the repository.</sub>
-
 <br>
 
 ### If you made it this far
@@ -352,8 +350,6 @@ E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar q
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg"><img src="assets/numeros-light.svg" width="100%" alt="39 / 891 / 120 / 715"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
-
-<sub>Isto se atualiza sozinho todo dia, por uma rotina que roda aqui mesmo no repositório.</sub>
 
 <br>
 
