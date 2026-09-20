@@ -1,97 +1,371 @@
+<details name="idioma">
+<summary>&nbsp;🇺🇸 <b>English</b> &nbsp;·&nbsp;</summary>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=ff0000&height=200&section=header&text=Júlio%20Caliberda&fontSize=80&fontAlignY=35&animation=twinkling&desc=Tech%20Product%20Manager%20|%20AI-Augmented%20Architect&descAlignY=55&descAlign=50&fontColor=ffffff&reversal=true"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/hero-dark.svg"><img src="assets/en/hero-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=ff0000&center=true&vCenter=true&width=600&height=50&lines=Kali+Tech+Product+Manager;AI-Driven+Engineering;Resolutive+Architectures;UI%2FUX+Premium" alt="Typing SVG" />
+  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-0B2229?style=flat-square&logo=vercel&logoColor=3FD0C9" alt="SITE"></a>
+  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-0B2229?style=flat-square&logo=polywork&logoColor=5FE3DA" alt="PORTFÓLIO"></a>
+  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-0B2229?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
+  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-0B2229?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
+  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-0B2229?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
+  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-0B2229?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
+  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-0B2229?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
+  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-0B2229?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
 
 <div align="center">
-  <a href="https://www.caliberda.com.br" target="_blank"><img src="https://img.shields.io/badge/Hub_Central-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Hub"></a>
-  <a href="https://portifolio.caliberda.com.br" target="_blank"><img src="https://img.shields.io/badge/Ver_Portfólio-ff0000?style=for-the-badge&logo=polywork&logoColor=black" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/hxtdll" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-ff0000?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn"></a>
-  <a href="mailto:julio@caliberda.com.br" target="_blank"><img src="https://img.shields.io/badge/Email-ff0000?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"></a>
-  <br><br>
-  <a href="https://discord.gg/e6VkayX4nG" target="_blank"><img src="https://img.shields.io/badge/Discord-0a0a0a?style=for-the-badge&logo=discord&logoColor=ff0000" alt="Discord"></a>
-  <a href="https://www.youtube.com/@hotdorgs" target="_blank"><img src="https://img.shields.io/badge/YouTube-0a0a0a?style=for-the-badge&logo=youtube&logoColor=ff0000" alt="YouTube"></a>
-  <a href="https://instagram.com/cesar.kali" target="_blank"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=ff0000" alt="Instagram"></a>
-  <a href="https://steamcommunity.com/id/hotdorgs/" target="_blank"><img src="https://img.shields.io/badge/Steam-0a0a0a?style=for-the-badge&logo=steam&logoColor=ff0000" alt="Steam"></a>
+  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=0B2229&style=flat-square" alt="VISITS">
 </div>
 
 <br>
 
-## 🩸 Quem é Júlio Caliberda?
+<table width="100%">
+<tr>
+<td width="63%" valign="top">
 
-Movo-me na interseção exata entre a visão de negócios e a execução técnica. Não sou um desenvolvedor tradicional; atuo como um **Tech PM e Arquiteto guiado por IA**. Utilizo ferramentas de Inteligência Artificial, Low-Code (n8n) e engenharia de processos para traduzir dores complexas em produtos reais de forma ultrarrápida.
+### I am not a developer
 
-* 🔴 **Foco Principal:** Orquestração de IA, Product Operations, Automações (n8n) e UI/UX Premium.
-* ⚡ **Missão:** Eliminar o caos operacional e garantir entregas escaláveis com impacto direto no faturamento.
+And I will not pretend to be. I do not know enough code to call myself that.
 
----
+What I do is something else: figuring out what needs to exist, understanding **why** it needs to exist, and steering AI until it becomes a real product. One that opens, that works, that someone uses every day without knowing who made it.
 
-## 🛠️ Stack & Arsenal Técnico
+By day I am a **systems analyst at Bitz Softwares**, listening to the problem of whoever is suffering with it before a single line gets written. This profile is what happens when I point that same attention at my own ideas, with nobody asking.
+
+None of this came from a course, a bootcamp or a roadmap. It came from *"what if this could be done?"* followed by a lot of stubbornness.
+
+</td>
+<td width="37%" valign="top" align="center">
+  <img src="assets/retrato.svg" width="100%" alt="Júlio Caliberda">
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="34%" valign="top">
+
+**What I bring**
+
+Product direction, systems analysis and prompting. I find what is worth building, explain it precisely, and read the result knowing when it is wrong.
+
+</td>
+<td width="33%" valign="top">
+
+**What is live**
+
+39 projects in 7 months. A finance SaaS with a native app, two Minecraft mods, an extension published on the Chrome Web Store and client sites running.
+
+</td>
+<td width="33%" valign="top">
+
+**How I keep at it**
+
+891 contributions across 120 different days, 715 of them in private repos. Nothing here worked on the first try.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### I do not write the code. I write the ask.
+
+<sub>What I do does not fit in a commit line. You can measure it by the size of what has to be decided and kept standing.</sub>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/escopo-dark.svg"><img src="assets/en/escopo-light.svg" width="100%" alt="INSONE"></picture>
+
+<br>
+
+### Highlights
+
+<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg"><img src="assets/en/d-financial-light.svg" width="100%" alt="Financial Kali"></picture></a>
+
+<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-allayfriend-dark.svg"><img src="assets/en/d-allayfriend-light.svg" width="100%" alt="AllayFriend"></picture></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-insone-dark.svg"><img src="assets/en/d-insone-light.svg" width="100%" alt="INSONE"></picture>
+
+<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-qt-dark.svg"><img src="assets/en/d-qt-light.svg" width="100%" alt="Quatro Temperamentos"></picture></a>
+
+<sub>Click any of them to open. INSONE has no page yet: it is still being written. All four are closed source.</sub>
+
+<br>
+
+### My portfolio
+
+<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/portfolio-dark.svg"><img src="assets/en/portfolio-light.svg" width="100%" alt="Portfolio"></picture></a>
+
+<br>
+
+### The rest
+
+<table width="100%">
+<tr><td valign="top" width="50%">
+
+**To play**
+
+- **[Kessler Cascade](https://kessler.caliberda.com.br)** · you have no weapons: you catch what is fired at you and throw it back
+- **[AFÓTICA](https://afotica.caliberda.com.br)** · sound is your sight, and it gives away where you are
+- **[Neon Strike](https://neonstrike.caliberda.com.br)** · cyberpunk arcade with a soundtrack generated in the browser
+- **[HORIZONTE](https://fable-airplane.vercel.app)** · 3D flight with 26 real Brazilian airports
+- **[CS2 Mix](https://www.caliberda.com.br/cs2mix)** · balanced teams from real Leetify ratings
+
+</td><td valign="top" width="50%">
+
+**Tools I use every day**
+
+- **[FlowVoice](https://flowvoice.caliberda.com.br/)** · AI voice dictation into any field, offline if you want · [code](https://github.com/cesarkali/Flow-Voice)
+- **[Semantic Tab Grouper](https://stg.caliberda.com.br/)** · groups tabs by subject, with AI running in your browser · [code](https://github.com/cesarkali/Semantic-Tab-Grouper)
+- **[CSGO-SKINS Inspector](https://csskins.caliberda.com.br/)** · inspects the skin in CS2 and shows the Steam price on the site
+- **[PMTT](https://pmtt.caliberda.com.br)** · proves the invisible work nobody sees you doing
+- **[CNPJ API](https://ccnpj.caliberda.com.br/)** · data on any Brazilian company from its tax ID · [code](https://github.com/cesarkali/ccnpj)
+
+</td></tr>
+<tr><td valign="top">
+
+**Minecraft**
+
+- **[AllayFriend](https://allayfriend.caliberda.com.br)** · an AI companion running inside the game
+- **INSONE, Nights Owed** · horror with an original story, in progress
+- **[Modpack HotDorgs](https://www.caliberda.com.br/minecraft)** · tuned to the bone for tick stability
+
+</td><td valign="top">
+
+**Products and clients**
+
+- **[Financial Kali](https://kali.caliberda.com.br)** · multi-company finance management with AI
+- **[Modal de Check-in](https://modal.caliberda.com.br)** · frictionless hotel check-in
+- **[Petshop 4i](https://petshop-4i.vercel.app)** · site and shop for a real pet store
+- **Eatz · BitzWay** · restaurant self-service and a booking portal
+- **[Karol ZK](https://karolzk.com.br)** · creator platforms, with [Isa Titon](https://isatiton.com.br)
+
+</td></tr>
+</table>
+
+<sub>Where there is no link, the code is private or the project is not live yet. <b>OtimizaDorgs</b>, a PC optimizer for games with reversible tweaks, is one of them.</sub>
+
+<details>
+<summary>and a few more experiments</summary>
+
+<br>
+
+Not everything becomes a product, and that is fine. Several were born over a weekend just to answer one question: **Bitz Loader** and **Docs Bitz**, internal to BitzSoftwares · **Controle de Pedidos** in Next.js on the Eatz API · **IA ou Humano**, a small test about who wrote the text.
+
+And plenty of others left behind, because part of building is accepting that not every idea deserves to continue.
+
+</details>
+
+<br>
+
+### The numbers, unretouched
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg"><img src="assets/en/numeros-light.svg" width="100%" alt="39 / 891 / 120 / 715"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg"><img src="assets/en/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
+
+<sub>This updates itself every day, through a routine that runs right here in the repository.</sub>
+
+<br>
+
+### If you made it this far
+
+If any of this made you want to build your own, reach out. I enjoy talking about the idea far more than about the tool.
+
+And if you also think you do not know enough to start: **I thought that too.**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,n8n,figma,aws,docker,linux,git" />
+<sub><a href="https://www.caliberda.com.br">caliberda.com.br</a></sub>
 </div>
 
-*(Nota Técnica: Alta capacidade de prototipação, integração de APIs REST, Webhooks e deploy de arquiteturas auxiliadas por LLMs)*
 
----
+</details>
 
-## 🚀 Ecossistema de Produtos & Projetos
-
-Abaixo estão as soluções que arquitetei e coloquei em produção. **Clique nos nomes para acessar as plataformas.**
-
-### 💼 1. Enterprise, SaaS & Web Apps
-Soluções focadas em gestão financeira, alta conversão e interfaces frictionless.
-
-| Projeto | Descrição |
-| :--- | :--- |
-| **[Financial Kali](https://kali.caliberda.com.br/)** | SaaS Full-Stack de gestão financeira com IA preditiva (Finn) para analytics em tempo real. Arquitetura robusta para alta densidade operacional. |
-| **[Modal de Check-in](https://modal.caliberda.com.br/)** | Interface de alta conversão para cadastro e check-in ágil de hóspedes em hotéis, focada em redução absoluta de atrito (Frictionless UX). |
-| **[CNPJ API](https://github.com/cesarkali/ccnpj)** | API REST em FastAPI para consulta de dados cadastrais de empresas brasileiras a partir do CNPJ, agregando múltiplas fontes (ReceitaWS, Minha Receita) com deploy serverless na Vercel. |
-
-### 🤖 2. AI Tools & Produtividade
-Ferramentas de produtividade pessoal potencializadas por IA, com foco em automação de tarefas do dia a dia.
-
-| Projeto | Descrição |
-| :--- | :--- |
-| **[FlowVoice](https://github.com/cesarkali/Flow-Voice)** | Utilitário de ditado por voz com IA para Windows e Ubuntu. Transcreve, traduz e polui o texto automaticamente em qualquer campo do sistema via atalho global, com múltiplos provedores de IA (Gemini, OpenAI, Groq) e modo 100% offline via Whisper local. |
-
-### 🎙️ 3. Creator Economy, Infra & Gaming
-Projetos otimizados para performance, conversão B2C e balanceamento algorítmico.
-
-| Projeto | Descrição |
-| :--- | :--- |
-| **Creator Hubs B2C** | Plataformas linktree avançadas com streaming integrados para [Karol ZK](https://karolzk.com.br) e [Isa Titon](https://isatiton.com.br). |
-| **[CS2 Optimizer](https://www.caliberda.com.br/cs2mix)** | Balanceamento algorítmico de times via consumo da API do Leetify para extração de métricas reais de jogadores. |
-| **[Minecraft Modpack](https://www.caliberda.com.br/minecraft)** | Modpack otimizado no nível de kernel (Fabric/Sodium) configurado para estabilidade extrema de tick e renderização. |
-| **[Neon Strike](https://neonstrike.caliberda.com.br/)** | Shooter cibernético estilo arcade com arquitetura de ranking global em tempo real e mecânicas de evolução. |
-
----
-
-## 📊 Analytics em Tempo Real
-
-<p align="center">
-  <a href="https://github.com/cesarkali" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api?username=cesarkali&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&icon_color=ff0000&title_color=ff0000&include_all_commits=true" alt="GitHub Stats" height="165" />
-  </a>
-  <a href="https://github.com/cesarkali" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cesarkali&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=f4f4f5&title_color=ff0000" alt="Top Languages" height="165" />
-  </a>
-</p>
+<details name="idioma" open>
+<summary>&nbsp;🇧🇷 <b>Português</b> &nbsp;·&nbsp;</summary>
 
 <div align="center">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=cesarkali&color=ff0000&label=Views+do+Perfil" alt="Profile views" />
-  <br>
-  <p>
-    <i>Construindo na velocidade do pensamento.</i><br>
-    © <a href="https://caliberda.com.br/" target="_blank">2026</a> Júlio Caliberda.
-  </p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a&height=100&section=footer" />
+  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-0B2229?style=flat-square&logo=vercel&logoColor=3FD0C9" alt="SITE"></a>
+  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-0B2229?style=flat-square&logo=polywork&logoColor=5FE3DA" alt="PORTFÓLIO"></a>
+  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-0B2229?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
+  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-0B2229?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
+  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-0B2229?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
+  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-0B2229?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
+  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-0B2229?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
+  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-0B2229?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=0B2229&style=flat-square" alt="VISITAS">
+</div>
+
+<br>
+
+<table width="100%">
+<tr>
+<td width="63%" valign="top">
+
+### Não sou desenvolvedor
+
+E não vou fingir que sou. Não sei código o suficiente para me chamar disso.
+
+O que eu faço é outra coisa: descobrir o que precisa existir, entender **por que** precisa existir, e conduzir a IA até aquilo virar produto de verdade. Que abre, que funciona, que alguém usa todo dia sem saber quem fez.
+
+De dia sou **analista de sistemas na Bitz Softwares**, ouvindo o problema de quem sofre com ele antes de qualquer linha ser escrita. Este perfil é o que acontece quando eu aponto o mesmo olhar para as minhas ideias, sem ninguém ter pedido.
+
+Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer isso?"* seguido de muita teimosia.
+
+</td>
+<td width="37%" valign="top" align="center">
+  <img src="assets/retrato.svg" width="100%" alt="Júlio Caliberda">
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="34%" valign="top">
+
+**O que eu faço**
+
+Direção de produto, análise de sistema e prompt. Descubro o que construir, explico com precisão e leio o resultado sabendo quando está errado.
+
+</td>
+<td width="33%" valign="top">
+
+**O que está no ar**
+
+39 projetos em 7 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, extensão publicada na Chrome Web Store e sites de cliente rodando.
+
+</td>
+<td width="33%" valign="top">
+
+**Como eu insisto**
+
+891 contribuições em 120 dias diferentes, 715 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### Eu não escrevo o código. Escrevo o pedido.
+
+<sub>O que eu faço não cabe numa linha de commit. Dá para medir pelo tamanho do que precisa ser decidido e mantido de pé.</sub>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/escopo-dark.svg"><img src="assets/escopo-light.svg" width="100%" alt="INSONE"></picture>
+
+<br>
+
+### Em destaque
+
+<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg"><img src="assets/d-financial-light.svg" width="100%" alt="Financial Kali"></picture></a>
+
+<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-allayfriend-dark.svg"><img src="assets/d-allayfriend-light.svg" width="100%" alt="AllayFriend"></picture></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-insone-dark.svg"><img src="assets/d-insone-light.svg" width="100%" alt="INSONE"></picture>
+
+<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-qt-dark.svg"><img src="assets/d-qt-light.svg" width="100%" alt="Quatro Temperamentos"></picture></a>
+
+<sub>Clique em qualquer um para abrir. O INSONE ainda não tem página: está sendo escrito. Os quatro têm o código fechado.</sub>
+
+<br>
+
+### Meu portfólio
+
+<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg"><img src="assets/portfolio-light.svg" width="100%" alt="Portfolio"></picture></a>
+
+<br>
+
+### O resto
+
+<table width="100%">
+<tr><td valign="top" width="50%">
+
+**Para jogar**
+
+- **[Kessler Cascade](https://kessler.caliberda.com.br)** · você não tem armas: captura o que atiram em você e devolve
+- **[AFÓTICA](https://afotica.caliberda.com.br)** · o som é a sua visão, e denuncia onde você está
+- **[Neon Strike](https://neonstrike.caliberda.com.br)** · arcade cyberpunk com trilha gerada no navegador
+- **[HORIZONTE](https://fable-airplane.vercel.app)** · voo 3D com 26 aeroportos brasileiros reais
+- **[CS2 Mix](https://www.caliberda.com.br/cs2mix)** · times equilibrados pelo rating real do Leetify
+
+</td><td valign="top" width="50%">
+
+**Ferramentas que eu uso todo dia**
+
+- **[FlowVoice](https://flowvoice.caliberda.com.br/)** · ditado por voz com IA em qualquer campo, offline se quiser · [código](https://github.com/cesarkali/Flow-Voice)
+- **[Semantic Tab Grouper](https://stg.caliberda.com.br/)** · agrupa abas pelo assunto, com IA rodando no seu navegador · [código](https://github.com/cesarkali/Semantic-Tab-Grouper)
+- **[CSGO-SKINS Inspector](https://csskins.caliberda.com.br/)** · inspeciona a skin no CS2 e mostra o preço da Steam direto no site
+- **[PMTT](https://pmtt.caliberda.com.br)** · prova o trabalho invisível que ninguém vê você fazendo
+- **[CNPJ API](https://ccnpj.caliberda.com.br/)** · dados de qualquer empresa brasileira pelo CNPJ · [código](https://github.com/cesarkali/ccnpj)
+
+</td></tr>
+<tr><td valign="top">
+
+**Minecraft**
+
+- **[AllayFriend](https://allayfriend.caliberda.com.br)** · companheiro de IA rodando dentro do jogo
+- **INSONE, Noites Devidas** · terror com narrativa própria, em construção
+- **[Modpack HotDorgs](https://www.caliberda.com.br/minecraft)** · ajustado no osso para estabilidade de tick
+
+</td><td valign="top">
+
+**Produtos e clientes**
+
+- **[Financial Kali](https://kali.caliberda.com.br)** · gestão financeira multi-empresa com IA
+- **[Modal de Check-in](https://modal.caliberda.com.br)** · check-in de hotel sem atrito
+- **[Petshop 4i](https://petshop-4i.vercel.app)** · site e loja de um petshop real
+- **Eatz · BitzWay** · autoatendimento de restaurante e portal de reservas
+- **[Karol ZK](https://karolzk.com.br)** · plataformas de creator, com [Isa Titon](https://isatiton.com.br)
+
+</td></tr>
+</table>
+
+<sub>Onde não tem link, o código é privado ou o projeto ainda não está no ar. <b>OtimizaDorgs</b>, otimizador de PC para jogos com tweaks reversíveis, é um deles.</sub>
+
+<details>
+<summary>e mais uns quantos experimentos</summary>
+
+<br>
+
+Nem tudo vira produto, e tudo bem. Vários nasceram num fim de semana só para responder uma pergunta: **Bitz Loader** e **Docs Bitz**, internos da BitzSoftwares · **Controle de Pedidos** em Next.js sobre a API Eatz · **IA ou Humano**, um teste pequeno sobre quem escreveu o texto.
+
+E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar que nem toda ideia merece continuar.
+
+</details>
+
+<br>
+
+### Os números, sem maquiagem
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg"><img src="assets/numeros-light.svg" width="100%" alt="39 / 891 / 120 / 715"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
+
+<sub>Isto se atualiza sozinho todo dia, por uma rotina que roda aqui mesmo no repositório.</sub>
+
+<br>
+
+### Se você chegou até aqui
+
+Se alguma dessas coisas te deu vontade de construir a sua, me chama. Gosto muito mais de conversar sobre a ideia do que sobre a ferramenta.
+
+E se você também acha que não sabe o suficiente para começar: **eu também achava.**
+
+<div align="center">
+<sub><a href="https://www.caliberda.com.br">caliberda.com.br</a></sub>
+</div>
+
+
+</details>

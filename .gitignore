@@ -1,0 +1,36 @@
+# temporários de pré-visualização do README
+_*.html
+_*.json
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editores
+.vscode/
+.idea/
+*.swp
+
+# nada de imagem de origem pesada: o que vale é o SVG gerado em assets/
+*.psd
+*.ai
+/fontes-originais/
+
+# ── ferramentas de autoria ───────────────────────────────────────────────
+# Ficam só na máquina. O GitHub não precisa delas: os SVGs já estão prontos
+# em assets/ e o README.md já está montado.
+#
+# atualiza_numeros.py NÃO entra aqui de propósito: é ele que a rotina diária
+# executa dentro do Actions. Sem ele versionado, a atualização automática para.
+scripts/gera_pecas.py
+scripts/gera_readme.py
+scripts/gera_retrato.py
+scripts/allay.b64

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 132" width="1000" height="132" role="img" aria-label="Financial Kali. O controle financeiro que eu queria usar, então eu fiz. Web, app Android nativo e a Finn, uma IA que lê comprovante, ouve áudio e responde sobre o seu dinheiro.">
+  <title>Financial Kali</title>
+  <style>
+    .t { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 27px; font-weight: 700; fill: #082228; }
+    .f { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; fill: #4C6F77; }
+    .m { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 10.5px; letter-spacing: 1.6px; fill: #4C6F77; }
+    .e { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 10.5px; letter-spacing: 1.6px; fill: #3FD0C9; }
+  </style>
+  <g><rect x="14" y="70" width="16" height="26" fill="#1F7A6E"><animate attributeName="height" values="0;26" keyTimes="0;1" dur="1.1s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/><animate attributeName="y" values="96;70" keyTimes="0;1" dur="1.1s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="36" y="52" width="16" height="44" fill="#2A9D8F"><animate attributeName="height" values="0;44" keyTimes="0;1" dur="1.1s" begin="0.18s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/><animate attributeName="y" values="96;52" keyTimes="0;1" dur="1.1s" begin="0.18s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="58" y="62" width="16" height="34" fill="#3FD0C9"><animate attributeName="height" values="0;34" keyTimes="0;1" dur="1.1s" begin="0.36s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/><animate attributeName="y" values="96;62" keyTimes="0;1" dur="1.1s" begin="0.36s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="80" y="34" width="16" height="62" fill="#5FE3DA"><animate attributeName="height" values="0;62" keyTimes="0;1" dur="1.1s" begin="0.54s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/><animate attributeName="y" values="96;34" keyTimes="0;1" dur="1.1s" begin="0.54s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="10" y="98" width="106" height="3" fill="#C9DCDF"/></g>
+  <rect x="146" y="14" width="3" height="94" fill="#3FD0C9"/>
+  <text x="168" y="38" class="t">Financial Kali</text>
+  <text x="168" y="64" class="f">O controle financeiro que eu queria usar, então eu fiz. Web, app Android nativo</text>
+  <text x="168" y="84" class="f">e a Finn, uma IA que lê comprovante, ouve áudio e responde sobre o seu dinheiro.</text>
+  <text x="168" y="110" class="m">REACT 19 · REACT NATIVE · FIREBASE · GROQ · GEMINI</text>
+  <text x="996" y="38" class="e" text-anchor="end">no ar</text>
+  <path d="M168 122 H996" stroke="#C9DCDF" stroke-width="1"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 132" width="1000" height="132" role="img" aria-label="INSONE, Nights Owed. Every night you skip by sleeping, a carpenter stays awake in your place. When the debt piles up, he comes to collect. Story, cutscenes and three endings.">
+  <title>INSONE, Nights Owed</title>
+  <style>
+    .t { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 27px; font-weight: 700; fill: #EAF7F8; }
+    .f { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 14.5px; fill: #8FB3BA; }
+    .m { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 10.5px; letter-spacing: 1.6px; fill: #8FB3BA; }
+    .e { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 10.5px; letter-spacing: 1.6px; fill: #C4453B; }
+  </style>
+  <g><rect x="24.0" y="40.0" width="24.0" height="6.0" fill="#F0EDE8"/><rect x="24.0" y="46.0" width="24.0" height="6.0" fill="#F0EDE8"/><rect x="48.0" y="46.0" width="48.0" height="6.0" fill="#C4453B"/><rect x="24.0" y="52.0" width="24.0" height="6.0" fill="#F0EDE8"/><rect x="48.0" y="52.0" width="48.0" height="6.0" fill="#C4453B"/><rect x="24.0" y="58.0" width="72.0" height="6.0" fill="#8A6340"/><rect x="24.0" y="64.0" width="6.0" height="6.0" fill="#8A6340"/><rect x="90.0" y="64.0" width="6.0" height="6.0" fill="#8A6340"/><rect x="6" y="28" width="108" height="0" fill="#07050A" opacity=".88"><animate attributeName="height" values="0;0;52;52;0" keyTimes="0;.34;.52;.70;1" dur="6.5s" repeatCount="indefinite"/></rect><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.54;.60;.68;.74" dur="6.5s" repeatCount="indefinite"/><circle cx="60" cy="54" r="9" fill="none" stroke="#C4453B" stroke-width="2.4"/><circle cx="60" cy="54" r="3.4" fill="#C4453B"/></g></g>
+  <rect x="146" y="14" width="3" height="94" fill="#C4453B"/>
+  <text x="168" y="38" class="t">INSONE, Nights Owed</text>
+  <text x="168" y="64" class="f">Every night you skip by sleeping, a carpenter stays awake in your place.</text>
+  <text x="168" y="84" class="f">When the debt piles up, he comes to collect. Story, cutscenes and three endings.</text>
+  <text x="168" y="110" class="m">NEOFORGE 1.21.1 + 26.2 · ORIGINAL STORY</text>
+  <text x="996" y="38" class="e" text-anchor="end">in progress</text>
+  <path d="M168 122 H996" stroke="#2B4C54" stroke-width="1"/>
+</svg>
