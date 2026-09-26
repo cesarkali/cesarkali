@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/hero-dark.svg"><img src="assets/en/hero-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/hero-dark.svg?v=hub"><img src="assets/en/hero-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
 
 </div>
 
@@ -40,7 +40,7 @@ None of this came from a course, a bootcamp or a roadmap. It came from *"what if
 
 </td>
 <td width="37%" valign="top" align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg"><img src="assets/retrato-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
 </td>
 </tr>
 </table>
@@ -77,19 +77,19 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 <sub>What I do does not fit in a commit line. You can measure it by the size of what has to be decided and kept standing.</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/escopo-dark.svg"><img src="assets/en/escopo-light.svg" width="100%" alt="INSONE"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/escopo-dark.svg?v=hub"><img src="assets/en/escopo-light.svg?v=hub" width="100%" alt="INSONE"></picture>
 
 <br>
 
 ### Highlights
 
-<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg"><img src="assets/en/d-financial-light.svg" width="100%" alt="Financial Kali"></picture></a>
+<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg?v=hub"><img src="assets/en/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
-<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-allayfriend-dark.svg"><img src="assets/en/d-allayfriend-light.svg" width="100%" alt="AllayFriend"></picture></a>
+<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-allayfriend-dark.svg?v=hub"><img src="assets/en/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-insone-dark.svg"><img src="assets/en/d-insone-light.svg" width="100%" alt="INSONE"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-insone-dark.svg?v=hub"><img src="assets/en/d-insone-light.svg?v=hub" width="100%" alt="INSONE"></picture>
 
-<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-qt-dark.svg"><img src="assets/en/d-qt-light.svg" width="100%" alt="Quatro Temperamentos"></picture></a>
+<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-qt-dark.svg?v=hub"><img src="assets/en/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
 
 <sub>Click any of them to open. INSONE has no page yet: it is still being written. All four are closed source.</sub>
 
@@ -97,7 +97,7 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 ### My portfolio
 
-<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/portfolio-dark.svg"><img src="assets/en/portfolio-light.svg" width="100%" alt="Portfolio"></picture></a>
+<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/portfolio-dark.svg?v=hub"><img src="assets/en/portfolio-light.svg?v=hub" width="100%" alt="Portfolio"></picture></a>
 
 <br>
 
@@ -163,9 +163,9 @@ And plenty of others left behind, because part of building is accepting that not
 
 ### The numbers, unretouched
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg"><img src="assets/en/numeros-light.svg" width="100%" alt="39 / 891 / 120 / 715"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=hub"><img src="assets/en/numeros-light.svg?v=hub" width="100%" alt="39 / 891 / 120 / 715"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg"><img src="assets/en/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg?v=hub"><img src="assets/en/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
 <br>
 
@@ -187,7 +187,7 @@ And if you also think you do not know enough to start: **I thought that too.**
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=hub"><img src="assets/hero-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
 
 </div>
 
@@ -224,7 +224,7 @@ Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer iss
 
 </td>
 <td width="37%" valign="top" align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg"><img src="assets/retrato-light.svg" width="100%" alt="Júlio Caliberda"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
 </td>
 </tr>
 </table>
@@ -261,19 +261,19 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 <sub>O que eu faço não cabe numa linha de commit. Dá para medir pelo tamanho do que precisa ser decidido e mantido de pé.</sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/escopo-dark.svg"><img src="assets/escopo-light.svg" width="100%" alt="INSONE"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/escopo-dark.svg?v=hub"><img src="assets/escopo-light.svg?v=hub" width="100%" alt="INSONE"></picture>
 
 <br>
 
 ### Em destaque
 
-<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg"><img src="assets/d-financial-light.svg" width="100%" alt="Financial Kali"></picture></a>
+<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg?v=hub"><img src="assets/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
-<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-allayfriend-dark.svg"><img src="assets/d-allayfriend-light.svg" width="100%" alt="AllayFriend"></picture></a>
+<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-allayfriend-dark.svg?v=hub"><img src="assets/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-insone-dark.svg"><img src="assets/d-insone-light.svg" width="100%" alt="INSONE"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-insone-dark.svg?v=hub"><img src="assets/d-insone-light.svg?v=hub" width="100%" alt="INSONE"></picture>
 
-<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-qt-dark.svg"><img src="assets/d-qt-light.svg" width="100%" alt="Quatro Temperamentos"></picture></a>
+<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-qt-dark.svg?v=hub"><img src="assets/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
 
 <sub>Clique em qualquer um para abrir. O INSONE ainda não tem página: está sendo escrito. Os quatro têm o código fechado.</sub>
 
@@ -281,7 +281,7 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 ### Meu portfólio
 
-<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg"><img src="assets/portfolio-light.svg" width="100%" alt="Portfolio"></picture></a>
+<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg?v=hub"><img src="assets/portfolio-light.svg?v=hub" width="100%" alt="Portfolio"></picture></a>
 
 <br>
 
@@ -347,9 +347,9 @@ E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar q
 
 ### Os números, sem maquiagem
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg"><img src="assets/numeros-light.svg" width="100%" alt="39 / 891 / 120 / 715"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=hub"><img src="assets/numeros-light.svg?v=hub" width="100%" alt="39 / 891 / 120 / 715"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg"><img src="assets/heatmap-light.svg" width="100%" alt="Contribution map"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=hub"><img src="assets/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
 <br>
 
