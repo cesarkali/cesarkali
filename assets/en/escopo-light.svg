@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 306" width="1000" height="306" role="img" aria-label="2 Minecraft versions, 191 Java files, 25,653 words of story, 13 cutscenes, 5 acts, 3 endings.">
   <title>INSONE</title>
   <style>
-    .h { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 11.5px; letter-spacing: 2.6px; fill: #4C6F77; }
-    .v { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 46px; font-weight: 700; fill: #082228; }
-    .r { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #082228; }
-    .s { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; fill: #4C6F77; }
-    .n { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; font-style: italic; fill: #4C6F77; }
+    .h { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 11.5px; letter-spacing: 2.6px; fill: #5B5B60; }
+    .v { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #0E0E0F; letter-spacing: -1px; }
+    .r { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #0E0E0F; }
+    .s { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; fill: #5B5B60; }
+    .n { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; font-size: 13.5px; fill: #5B5B60; }
   </style>
   <text x="44" y="30" class="h">ONE PROJECT FROM THE INSIDE · INSONE, NIGHTS OWED</text>
-  <path d="M44.0 84.0 H292.0" stroke="#0C8E99" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M44.0 84.0 H292.0" stroke="#1A36E6" stroke-width="2" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="44.0" y="70.0" class="v">2</text><text x="44.0" y="108.0" class="r">Minecraft versions</text><text x="44.0" y="128.0" class="s">1.21.1 and 26.2, built in parallel</text>
-  <path d="M363.0 84.0 H611.0" stroke="#C9532C" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.14s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M363.0 84.0 H611.0" stroke="#0E0E0F" stroke-width="1" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.14s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="363.0" y="70.0" class="v">191</text><text x="363.0" y="108.0" class="r">Java files</text><text x="363.0" y="128.0" class="s">plus 486 asset and config files</text>
-  <path d="M682.0 84.0 H930.0" stroke="#0C8E99" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.28s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M682.0 84.0 H930.0" stroke="#1A36E6" stroke-width="2" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.28s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="682.0" y="70.0" class="v">25,653</text><text x="682.0" y="108.0" class="r">words of story</text><text x="682.0" y="128.0" class="s">revised version after version</text>
-  <path d="M44.0 210.0 H292.0" stroke="#C9532C" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.42s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M44.0 210.0 H292.0" stroke="#0E0E0F" stroke-width="1" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.42s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="44.0" y="196.0" class="v">13</text><text x="44.0" y="234.0" class="r">cutscenes</text><text x="44.0" y="254.0" class="s">each one with script and music</text>
-  <path d="M363.0 210.0 H611.0" stroke="#0C8E99" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.56s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M363.0 210.0 H611.0" stroke="#1A36E6" stroke-width="2" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.56s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="363.0" y="196.0" class="v">5</text><text x="363.0" y="234.0" class="r">acts</text><text x="363.0" y="254.0" class="s">from the prologue to the room below</text>
-  <path d="M682.0 210.0 H930.0" stroke="#C9532C" stroke-width="1.6" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.70s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
+  <path d="M682.0 210.0 H930.0" stroke="#0E0E0F" stroke-width="1" stroke-dasharray="248" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="248;0" keyTimes="0;1" dur="1s" begin="0.70s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></path>
   <text x="682.0" y="196.0" class="v">3</text><text x="682.0" y="234.0" class="r">endings</text><text x="682.0" y="254.0" class="s">and none of them is the obvious one</text>
   <text x="44" y="292" class="n">I wrote none of those lines. I made every decision behind them.</text>
 </svg>
