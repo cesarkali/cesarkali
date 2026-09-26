@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/hero-dark.svg?v=hub"><img src="assets/en/hero-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/hero-dark.svg?v=pa"><img src="assets/en/hero-light.svg?v=pa" width="100%" alt="Júlio Caliberda"></picture>
 
 </div>
 
@@ -34,7 +34,7 @@ And I will not pretend to be. I do not know enough code to call myself that.
 
 What I do is something else: figuring out what needs to exist, understanding **why** it needs to exist, and steering AI until it becomes a real product. One that opens, that works, that someone uses every day without knowing who made it.
 
-By day I am a **systems analyst at Bitz Softwares**, listening to the problem of whoever is suffering with it before a single line gets written. This profile is what happens when I point that same attention at my own ideas, with nobody asking.
+By day I am a **Product Analyst at Bitz Softwares**, listening to the problem of whoever is suffering with it before a single line gets written. This profile is what happens when I point that same attention at my own ideas, with nobody asking.
 
 None of this came from a course, a bootcamp or a roadmap. It came from *"what if this could be done?"* followed by a lot of stubbornness.
 
@@ -187,7 +187,7 @@ And if you also think you do not know enough to start: **I thought that too.**
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=hub"><img src="assets/hero-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=pa"><img src="assets/hero-light.svg?v=pa" width="100%" alt="Júlio Caliberda"></picture>
 
 </div>
 
@@ -218,7 +218,7 @@ E não vou fingir que sou. Não sei código o suficiente para me chamar disso.
 
 O que eu faço é outra coisa: descobrir o que precisa existir, entender **por que** precisa existir, e conduzir a IA até aquilo virar produto de verdade. Que abre, que funciona, que alguém usa todo dia sem saber quem fez.
 
-De dia sou **analista de sistemas na Bitz Softwares**, ouvindo o problema de quem sofre com ele antes de qualquer linha ser escrita. Este perfil é o que acontece quando eu aponto o mesmo olhar para as minhas ideias, sem ninguém ter pedido.
+De dia sou **Product Analyst na Bitz Softwares**, ouvindo o problema de quem sofre com ele antes de qualquer linha ser escrita. Este perfil é o que acontece quando eu aponto o mesmo olhar para as minhas ideias, sem ninguém ter pedido.
 
 Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer isso?"* seguido de muita teimosia.
 
