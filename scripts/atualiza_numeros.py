@@ -17,13 +17,15 @@ ASSETS  = os.path.join(RAIZ, 'assets')
 SANS = u"'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
 MONO = u"'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace"
 
+# paleta do caliberda.com.br: tinta + azul ultramar ("teal" e "coral" mantêm o
+# nome antigo só para não mexer no resto do script)
 TEMAS = {
- 'dark':  dict(ink='#EAF7F8', dim='#7FA6AE', faint='#2B4C54', teal='#3FD0C9', coral='#F08E71',
-               cel=['#16272C', '#13555C', '#18868D', '#2CBDB4', '#5FE3DA'],
-               cobra=['#F6B79E', '#F0A085', '#E8764F', '#C4553B', '#8A3A2A']),
- 'light': dict(ink='#082228', dim='#4C6F77', faint='#C9DCDF', teal='#0C8E99', coral='#CE5B36',
-               cel=['#E6EEEF', '#B9E0DF', '#6FC7C4', '#27A7A4', '#0A7F84'],
-               cobra=['#E27846', '#D9622F', '#C2521F', '#9E4018', '#6E2C10']),
+ 'dark':  dict(ink='#E8E9EC', dim='#9A9CA3', faint='#2A2C33', teal='#7D8DFF', coral='#B8C1FF',
+               cel=['#161B22', '#1F2A6B', '#3143B8', '#5468F0', '#8E9CFF'],
+               cobra=['#F2F3F5', '#DCDEE3', '#BFC2CA', '#9A9EA8', '#747884']),
+ 'light': dict(ink='#0E0E0F', dim='#5B5B60', faint='#DCDCD6', teal='#1A36E6', coral='#0E0E0F',
+               cel=['#EEEEEA', '#C9D0FB', '#8E9CF4', '#4A61EE', '#1A36E6'],
+               cobra=['#3A3A3F', '#2C2C31', '#1F1F23', '#141417', '#0A0A0B']),
 }
 
 MES = {

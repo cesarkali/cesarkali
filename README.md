@@ -8,18 +8,18 @@
 </div>
 
 <div align="center">
-  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-0B2229?style=flat-square&logo=vercel&logoColor=3FD0C9" alt="SITE"></a>
-  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-0B2229?style=flat-square&logo=polywork&logoColor=5FE3DA" alt="PORTFÓLIO"></a>
-  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-0B2229?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
-  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-0B2229?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
-  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-0B2229?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
-  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-0B2229?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
-  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-0B2229?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
-  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-0B2229?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
+  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-15161A?style=flat-square&logo=vercel&logoColor=7D8DFF" alt="SITE"></a>
+  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-15161A?style=flat-square&logo=polywork&logoColor=7D8DFF" alt="PORTFÓLIO"></a>
+  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-15161A?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
+  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-15161A?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
+  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-15161A?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
+  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-15161A?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
+  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-15161A?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
+  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-15161A?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=0B2229&style=flat-square" alt="VISITS">
+  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=15161A&style=flat-square" alt="VISITS">
 </div>
 
 <br>
@@ -40,7 +40,7 @@ None of this came from a course, a bootcamp or a roadmap. It came from *"what if
 
 </td>
 <td width="37%" valign="top" align="center">
-  <img src="assets/retrato.svg" width="100%" alt="Júlio Caliberda">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg"><img src="assets/retrato-light.svg" width="100%" alt="Júlio Caliberda"></picture>
 </td>
 </tr>
 </table>
@@ -192,18 +192,18 @@ And if you also think you do not know enough to start: **I thought that too.**
 </div>
 
 <div align="center">
-  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-0B2229?style=flat-square&logo=vercel&logoColor=3FD0C9" alt="SITE"></a>
-  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-0B2229?style=flat-square&logo=polywork&logoColor=5FE3DA" alt="PORTFÓLIO"></a>
-  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-0B2229?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
-  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-0B2229?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
-  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-0B2229?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
-  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-0B2229?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
-  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-0B2229?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
-  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-0B2229?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
+  <a href="https://www.caliberda.com.br"><img src="https://img.shields.io/badge/SITE-15161A?style=flat-square&logo=vercel&logoColor=7D8DFF" alt="SITE"></a>
+  <a href="https://portifolio.caliberda.com.br"><img src="https://img.shields.io/badge/PORTFÓLIO-15161A?style=flat-square&logo=polywork&logoColor=7D8DFF" alt="PORTFÓLIO"></a>
+  <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-15161A?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
+  <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-15161A?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
+  <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-15161A?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
+  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-15161A?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
+  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-15161A?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
+  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-15161A?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=0B2229&style=flat-square" alt="VISITAS">
+  <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=15161A&style=flat-square" alt="VISITAS">
 </div>
 
 <br>
@@ -224,7 +224,7 @@ Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer iss
 
 </td>
 <td width="37%" valign="top" align="center">
-  <img src="assets/retrato.svg" width="100%" alt="Júlio Caliberda">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg"><img src="assets/retrato-light.svg" width="100%" alt="Júlio Caliberda"></picture>
 </td>
 </tr>
 </table>
