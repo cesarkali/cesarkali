@@ -17,7 +17,6 @@
   <text x="605.6" y="35.0" class="s" fill="#9A9CA3">jul</text>
   <text x="663.2" y="35.0" class="s" fill="#9A9CA3">ago</text>
   <text x="735.2" y="35.0" class="s" fill="#9A9CA3">set</text>
-  <rect x="44.0" y="60.4" width="11" height="11" fill="#161B22"></rect>
   <rect x="44.0" y="74.8" width="11" height="11" fill="#161B22"></rect>
   <rect x="44.0" y="89.2" width="11" height="11" fill="#161B22"></rect>
   <rect x="44.0" y="103.6" width="11" height="11" fill="#161B22"></rect>
@@ -383,6 +382,7 @@
   <rect x="792.8" y="46.0" width="11" height="11" fill="#5468F0"><animate attributeName="fill" values="#5468F0;#5468F0;#161B22;#161B22;#5468F0" keyTimes="0;0.8830;0.8870;0.965;1" dur="26.0s" repeatCount="indefinite"/></rect>
   <rect x="792.8" y="60.4" width="11" height="11" fill="#1F2A6B"><animate attributeName="fill" values="#1F2A6B;#1F2A6B;#161B22;#161B22;#1F2A6B" keyTimes="0;0.8854;0.8894;0.965;1" dur="26.0s" repeatCount="indefinite"/></rect>
   <rect x="792.8" y="74.8" width="11" height="11" fill="#161B22"></rect>
+  <rect x="792.8" y="89.2" width="11" height="11" fill="#161B22"></rect>
   <rect x="-5.50" y="-5.50" width="11.0" height="11.0" fill="#F2F3F5" opacity="1"><animateMotion dur="26.0s" repeatCount="indefinite" begin="0.000s" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.90;1"><mpath xlink:href="#trilho" href="#trilho"/></animateMotion></rect>
   <rect x="-5.35" y="-5.35" width="10.7" height="10.7" fill="#F2F3F5" opacity="1"><animateMotion dur="26.0s" repeatCount="indefinite" begin="-25.937s" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.90;1"><mpath xlink:href="#trilho" href="#trilho"/></animateMotion></rect>
   <rect x="-5.19" y="-5.19" width="10.4" height="10.4" fill="#F2F3F5" opacity="1"><animateMotion dur="26.0s" repeatCount="indefinite" begin="-25.874s" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.90;1"><mpath xlink:href="#trilho" href="#trilho"/></animateMotion></rect>
