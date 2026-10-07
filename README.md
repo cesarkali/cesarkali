@@ -76,7 +76,8 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 ### Highlights
 
-<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-windhawk-dark.svg?v=wh"><img src="assets/en/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a>
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-windhawk-dark.svg?v=wh"><img src="assets/en/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a><br>
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/en/wh-alt-tab-flip-3d.svg" width="100%" alt="Alt+Tab Flip 3D on Windhawk: users and ratings"></a>
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D running: windows fly into a 3D stack"></a>
 
@@ -259,7 +260,8 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 ### Em destaque
 
-<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-windhawk-dark.svg?v=wh"><img src="assets/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a>
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-windhawk-dark.svg?v=wh"><img src="assets/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a><br>
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/wh-alt-tab-flip-3d.svg" width="100%" alt="Alt+Tab Flip 3D no Windhawk: usuários e avaliações"></a>
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D funcionando: as janelas voam para uma pilha 3D"></a>
 
