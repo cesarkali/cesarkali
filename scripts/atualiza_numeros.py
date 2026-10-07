@@ -4,8 +4,9 @@
 Roda sozinho pelo workflow .github/workflows/atualiza-numeros.yml.
 Sem dependencia externa: so biblioteca padrao.
 
-Token: usa GH_PAT quando existir (enxerga contribuicoes em repositorio privado)
-e cai para GITHUB_TOKEN caso contrario.
+Token: usa GH_PAT quando existir e cai para GITHUB_TOKEN caso contrario. Para o
+numero de projetos contar os privados, o GH_PAT precisa enxergar todos os
+repositorios (fine-grained: "All repositories" com Metadata read-only).
 """
 import os, io, json, datetime, urllib.request
 
@@ -67,8 +68,17 @@ def consulta():
           totalCount
           nodes { createdAt }
         }
+        publicos: repositories(ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC) { totalCount }
         contributionsCollection(from:$de, to:$ate) {
-          restrictedContributionsCount
+          commitContributionsByRepository(maxRepositories:100) {
+            repository { isPrivate } contributions { totalCount } }
+          issueContributionsByRepository(maxRepositories:100) {
+            repository { isPrivate } contributions { totalCount } }
+          pullRequestContributionsByRepository(maxRepositories:100) {
+            repository { isPrivate } contributions { totalCount } }
+          pullRequestReviewContributionsByRepository(maxRepositories:100) {
+            repository { isPrivate } contributions { totalCount } }
+          repositoryContributions(first:100) { nodes { repository { isPrivate } } }
           contributionCalendar {
             totalContributions
             weeks { contributionDays { date contributionCount } }
@@ -91,6 +101,21 @@ def consulta():
     if 'errors' in d:
         raise SystemExit('GraphQL falhou: %s' % d['errors'])
     return d['data']['user']
+
+
+def publicas(cc):
+    """Contribuicoes feitas em repositorio publico, somadas repo a repo.
+
+    O resto do total do calendario e privado. Nao da para usar
+    restrictedContributionsCount: ele so conta o que o token NAO enxerga, entao
+    cai para zero justamente quando o token tem acesso aos privados."""
+    n = 0
+    for chave in ('commitContributionsByRepository', 'issueContributionsByRepository',
+                  'pullRequestContributionsByRepository', 'pullRequestReviewContributionsByRepository'):
+        n += sum(r['contributions']['totalCount'] for r in cc[chave]
+                 if not r['repository']['isPrivate'])
+    n += sum(1 for r in cc['repositoryContributions']['nodes'] if not r['repository']['isPrivate'])
+    return n
 
 
 def nivel(n):
@@ -262,10 +287,14 @@ def main():
     total = cal['totalContributions']
     ativos = sum(1 for d in dias if d['contributionCount'] > 0)
     pico = max(d['contributionCount'] for d in dias)
-    privadas = u['contributionsCollection']['restrictedContributionsCount']
+    privadas = max(0, total - publicas(u['contributionsCollection']))
 
     repos = u['repositories']
     n_repos = repos['totalCount']
+    if n_repos == u['publicos']['totalCount']:
+        # o token so enxerga repositorio publico: o numero de projetos sai baixo
+        print('::warning::o token so enxerga repositorios publicos (%d). Para contar os privados, '
+              'de ao GH_PAT acesso a "All repositories" (Metadata: read-only basta).' % n_repos)
     datas = sorted(r['createdAt'][:10] for r in repos['nodes'])
     if datas:
         d0 = datetime.date(*map(int, datas[0].split('-')))
