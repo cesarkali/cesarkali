@@ -24,9 +24,7 @@
 
 <br>
 
-<table width="100%">
-<tr>
-<td width="63%" valign="top">
+<picture><source media="(max-width: 640px)" srcset="assets/retrato-m.svg?v=wh"><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" align="right" alt="Júlio Caliberda"></picture>
 
 ### I am not a developer
 
@@ -38,12 +36,7 @@ By day I am a **Product Analyst at Bitz Softwares**, listening to the problem of
 
 None of this came from a course, a bootcamp or a roadmap. It came from *"what if this could be done?"* followed by a lot of stubbornness.
 
-</td>
-<td width="37%" valign="top" align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
-</td>
-</tr>
-</table>
+<br clear="right">
 
 <table width="100%">
 <tr>
@@ -58,14 +51,14 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 **What is live**
 
-39 projects in 7 months. A finance SaaS with a native app, two Minecraft mods, an extension published on the Chrome Web Store and client sites running.
+39 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, a Windhawk mod, an extension published on the Chrome Web Store and client sites running.
 
 </td>
 <td width="33%" valign="top">
 
 **How I keep at it**
 
-891 contributions across 120 different days, 715 of them in private repos. Nothing here worked on the first try.
+940 contributions across 135 different days, 749 of them in private repos. Nothing here worked on the first try.
 
 </td>
 </tr>
@@ -83,6 +76,12 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 ### Highlights
 
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-windhawk-dark.svg?v=wh"><img src="assets/en/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a>
+
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D running: windows fly into a 3D stack"></a>
+
+<sub>I am one of the people building mods for <a href="https://windhawk.net">Windhawk</a>. A second mod, a much bigger one, is in review to join the store.</sub>
+
 <a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg?v=hub"><img src="assets/en/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
 <a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-allayfriend-dark.svg?v=hub"><img src="assets/en/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
@@ -91,7 +90,7 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 <a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-qt-dark.svg?v=hub"><img src="assets/en/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
 
-<sub>Click any of them to open. INSONE has no page yet: it is still being written. All four are closed source.</sub>
+<sub>Click any of them to open. INSONE has no page yet: it is still being written. The Windhawk mod is open source, like every mod there. The other four are closed source.</sub>
 
 <br>
 
@@ -163,7 +162,7 @@ And plenty of others left behind, because part of building is accepting that not
 
 ### The numbers, unretouched
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=hub"><img src="assets/en/numeros-light.svg?v=hub" width="100%" alt="39 / 891 / 120 / 715"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="39 / 940 / 135 / 749"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg?v=hub"><img src="assets/en/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
@@ -208,9 +207,7 @@ And if you also think you do not know enough to start: **I thought that too.**
 
 <br>
 
-<table width="100%">
-<tr>
-<td width="63%" valign="top">
+<picture><source media="(max-width: 640px)" srcset="assets/retrato-m.svg?v=wh"><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" align="right" alt="Júlio Caliberda"></picture>
 
 ### Não sou desenvolvedor
 
@@ -222,12 +219,7 @@ De dia sou **Product Analyst na Bitz Softwares**, ouvindo o problema de quem sof
 
 Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer isso?"* seguido de muita teimosia.
 
-</td>
-<td width="37%" valign="top" align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" width="100%" alt="Júlio Caliberda"></picture>
-</td>
-</tr>
-</table>
+<br clear="right">
 
 <table width="100%">
 <tr>
@@ -242,14 +234,14 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 **O que está no ar**
 
-39 projetos em 7 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, extensão publicada na Chrome Web Store e sites de cliente rodando.
+39 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, um mod do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
 
 </td>
 <td width="33%" valign="top">
 
 **Como eu insisto**
 
-891 contribuições em 120 dias diferentes, 715 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
+940 contribuições em 135 dias diferentes, 749 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
 
 </td>
 </tr>
@@ -267,6 +259,12 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 ### Em destaque
 
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-windhawk-dark.svg?v=wh"><img src="assets/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a>
+
+<a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D funcionando: as janelas voam para uma pilha 3D"></a>
+
+<sub>Faço parte de quem cria mods para o <a href="https://windhawk.net">Windhawk</a>. Um segundo mod, bem maior, está em revisão para entrar na loja.</sub>
+
 <a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg?v=hub"><img src="assets/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
 <a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-allayfriend-dark.svg?v=hub"><img src="assets/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
@@ -275,7 +273,7 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 <a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-qt-dark.svg?v=hub"><img src="assets/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
 
-<sub>Clique em qualquer um para abrir. O INSONE ainda não tem página: está sendo escrito. Os quatro têm o código fechado.</sub>
+<sub>Clique em qualquer um para abrir. O INSONE ainda não tem página: está sendo escrito. O mod do Windhawk tem código aberto, como todo mod de lá. Os outros quatro têm o código fechado.</sub>
 
 <br>
 
@@ -347,7 +345,7 @@ E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar q
 
 ### Os números, sem maquiagem
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=hub"><img src="assets/numeros-light.svg?v=hub" width="100%" alt="39 / 891 / 120 / 715"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="39 / 940 / 135 / 749"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=hub"><img src="assets/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
