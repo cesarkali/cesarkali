@@ -276,6 +276,96 @@ def numeros(t, itens):
            CORTES=u''.join(cortes), GRUPOS=u'\n  '.join(grupos))
 
 
+# ─────────────────────────── WINDHAWK ─────────────────────────
+# O catálogo público que o próprio programa do Windhawk consulta. "users" é quem
+# está com o mod instalado; a nota vai de 0 a 10 e ratingBreakdown conta as
+# avaliações de 1 a 5 estrelas.
+CATALOGO_WH = 'https://mods.windhawk.net/catalog.json'
+MODS_WH = ['alt-tab-flip-3d']
+
+COR_WH = dict(bg='#06090F', ink='#EAF2FF', dim='#AFC0D6', mut='#6E8099', acc='#5AB4FF', star='#FFC857')
+
+TXT_WH = {
+ 'pt': dict(users=u'pessoas usando', aval=(u'avaliação', u'avaliações'), sem=u'ainda sem avaliação',
+            versao=u'VERSÃO %s · DADOS DO WINDHAWK', dec=u','),
+ 'en': dict(users=u'people using it', aval=(u'rating', u'ratings'), sem=u'no ratings yet',
+            versao=u'VERSION %s · WINDHAWK DATA', dec=u'.'),
+}
+
+
+def catalogo_wh():
+    req = urllib.request.Request(CATALOGO_WH)
+    req.add_header('User-Agent', 'perfil-%s' % USUARIO)
+    with urllib.request.urlopen(req, timeout=45) as r:
+        return json.loads(r.read().decode('utf-8'))['mods']
+
+
+def milhar(n, idioma):
+    return u'{:,}'.format(n).replace(u',', u'.' if idioma == 'pt' else u',')
+
+
+def faixa_wh(mod, idioma):
+    """Faixa que fica logo abaixo do card do mod: usuários, estrelas e versão."""
+    c, L = COR_WH, TXT_WH[idioma]
+    det, meta = mod['details'], mod['metadata']
+    votos = det.get('ratingBreakdown') or [0] * 5
+    n = sum(votos)
+    media = sum((i + 1) * v for i, v in enumerate(votos)) / float(n) if n else 0.0
+
+    estrelas = []
+    for i in range(5):
+        x = 330 + i * 26
+        cheio = max(0.0, min(1.0, media - i))
+        d = (u'M%.1f 22 L%.1f 30.5 L%.1f 31.2 L%.1f 37 L%.1f 46 L%.1f 41.3 L%.1f 46 L%.1f 37 L%.1f 31.2 L%.1f 30.5 Z'
+             % (x + 10, x + 12.9, x + 20, x + 14.7, x + 16.2, x + 10, x + 3.8, x + 5.3, x, x + 7.1))
+        estrelas.append(u'<clipPath id="e%d"><rect x="%.1f" y="18" width="%.1f" height="32"/></clipPath>'
+                        u'<path d="%s" fill="%s" opacity=".22"/><path d="%s" fill="%s" clip-path="url(#e%d)"/>'
+                        % (i, x, 20 * cheio, d, c['mut'], d, c['star'], i))
+    if n:
+        nota = u'%s · %d %s' % ((u'%.1f' % media).replace(u'.', L['dec']), n, L['aval'][n != 1])
+    else:
+        nota = L['sem']
+
+    users = milhar(det.get('users', 0), idioma)
+    return u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 68" width="1000" height="68" role="img" aria-label="%(alt)s">
+  <title>%(nome)s no Windhawk</title>
+  <style>
+    .n { font-family: %(SANS)s; font-size: 30px; font-weight: 800; fill: %(ink)s; letter-spacing: -.5px; }
+    .f { font-family: %(SANS)s; font-size: 14.5px; fill: %(dim)s; }
+    .m { font-family: %(MONO)s; font-size: 10.5px; letter-spacing: 1.4px; fill: %(mut)s; }
+  </style>
+  <rect x=".5" y=".5" width="999" height="67" fill="%(bg)s" stroke="%(acc)s" stroke-opacity=".35"/>
+  <text x="28" y="45" class="n">%(users)s</text>
+  <text x="%(ux).1f" y="44" class="f">%(lu)s</text>
+  %(EST)s
+  <text x="470" y="40" class="f">%(nota)s</text>
+  <text x="972" y="39" class="m" text-anchor="end">%(versao)s</text>
+</svg>
+''' % dict(SANS=SANS, MONO=MONO, nome=meta.get('name', ''), users=users, lu=L['users'],
+           ux=36 + len(users) * 17.5, EST=u''.join(estrelas), nota=nota,
+           versao=L['versao'] % meta.get('version', u'?'),
+           alt=u'%s %s, %s' % (users, L['users'], nota), **c)
+
+
+def atualiza_windhawk():
+    # se o catálogo falhar, os números do GitHub seguem sendo publicados
+    try:
+        mods = catalogo_wh()
+    except Exception as e:
+        print('::warning::catálogo do Windhawk indisponível: %s' % e)
+        return
+    for mid in MODS_WH:
+        if mid not in mods:
+            print('::warning::%s ainda não está no catálogo do Windhawk' % mid)
+            continue
+        for idioma in ('pt', 'en'):
+            io.open(destino(idioma, 'wh-%s.svg' % mid), 'w', encoding='utf-8', newline='\n').write(
+                faixa_wh(mods[mid], idioma))
+        det = mods[mid]['details']
+        print('windhawk %s: %d usuarios | nota %s | %d avaliacoes'
+              % (mid, det.get('users', 0), det.get('rating'), det.get('ratingUsers', 0)))
+
+
 def main():
     if not TOKEN:
         raise SystemExit('faltou GH_PAT ou GITHUB_TOKEN no ambiente')
@@ -319,6 +409,8 @@ def main():
 
     print('ok: %d repositorios | %d contribuicoes | %d dias | %d privadas | %d meses'
           % (n_repos, total, ativos, privadas, meses))
+
+    atualiza_windhawk()
 
 
 if __name__ == '__main__':
