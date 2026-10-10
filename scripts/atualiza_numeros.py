@@ -9,6 +9,7 @@ numero de projetos contar os privados, o GH_PAT precisa enxergar todos os
 repositorios (fine-grained: "All repositories" com Metadata read-only).
 """
 import os, io, json, datetime, urllib.request
+from xml.sax.saxutils import escape
 
 USUARIO = os.environ.get('GH_USER', 'cesarkali')
 TOKEN   = os.environ.get('GH_PAT') or os.environ.get('GITHUB_TOKEN')
@@ -281,7 +282,7 @@ def numeros(t, itens):
 # está com o mod instalado; a nota vai de 0 a 10 e ratingBreakdown conta as
 # avaliações de 1 a 5 estrelas.
 CATALOGO_WH = 'https://mods.windhawk.net/catalog.json'
-MODS_WH = ['alt-tab-flip-3d']
+MODS_WH = ['alt-tab-flip-3d', 'mac-island-dock']
 
 COR_WH = dict(bg='#06090F', ink='#EAF2FF', dim='#AFC0D6', mut='#6E8099', acc='#5AB4FF', star='#FFC857')
 
@@ -341,7 +342,7 @@ def faixa_wh(mod, idioma):
   <text x="470" y="40" class="f">%(nota)s</text>
   <text x="972" y="39" class="m" text-anchor="end">%(versao)s</text>
 </svg>
-''' % dict(SANS=SANS, MONO=MONO, nome=meta.get('name', ''), users=users, lu=L['users'],
+''' % dict(SANS=SANS, MONO=MONO, nome=escape(meta.get('name', '')), users=users, lu=L['users'],
            ux=36 + len(users) * 17.5, EST=u''.join(estrelas), nota=nota,
            versao=L['versao'] % meta.get('version', u'?'),
            alt=u'%s %s, %s' % (users, L['users'], nota), **c)
