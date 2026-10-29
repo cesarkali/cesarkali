@@ -51,7 +51,7 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 **What is live**
 
-39 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, two Windhawk mods, an extension published on the Chrome Web Store and client sites running.
+39 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, three Windhawk mods, an extension published on the Chrome Web Store and client sites running.
 
 </td>
 <td width="33%" valign="top">
@@ -76,17 +76,17 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 ### Highlights
 
+<a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-island-dark.svg?v=wh2"><img src="assets/en/d-island-light.svg?v=wh2" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
+<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/en/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock on Windhawk: users and ratings"></a>
+
+<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/windhawk-island-2-1.webp" width="100%" alt="Mac Island &amp; Dock running: the island opens from its line, a timer runs, then the media panel and its mixer open"></a>
+
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-windhawk-dark.svg?v=wh"><img src="assets/en/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a><br>
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/en/wh-alt-tab-flip-3d.svg" width="100%" alt="Alt+Tab Flip 3D on Windhawk: users and ratings"></a>
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D running: windows fly into a 3D stack"></a>
 
-<a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-island-dark.svg?v=wh"><img src="assets/en/d-island-light.svg?v=wh" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
-<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/en/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock on Windhawk: users and ratings"></a>
-
-<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/windhawk-island.gif" width="100%" alt="Mac Island &amp; Dock running: the island at the top of the screen opens with a new notification"></a>
-
-<sub>I am one of the people building mods for <a href="https://windhawk.net">Windhawk</a>. Both of them are published on the store.</sub>
+<sub>I am one of the people building mods for <a href="https://windhawk.net">Windhawk</a>. All three are published on the store: the third, <a href="https://windhawk.net/mods/windows-terminal-start-minimized">Windows Terminal Start Minimized</a>, is a small one that opens Windows Terminal minimized at sign-in. <a href="https://github.com/cesarkali/windhawk-mods-showcase">See all of them together</a>.</sub>
 
 <a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg?v=hub"><img src="assets/en/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
@@ -240,7 +240,7 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 **O que está no ar**
 
-39 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, dois mods do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
+39 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, três mods do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
 
 </td>
 <td width="33%" valign="top">
@@ -265,17 +265,17 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 ### Em destaque
 
+<a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-island-dark.svg?v=wh2"><img src="assets/d-island-light.svg?v=wh2" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
+<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock no Windhawk: usuários e avaliações"></a>
+
+<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/windhawk-island-2-1.webp" width="100%" alt="Mac Island &amp; Dock funcionando: a ilha se abre da linha, um timer corre e depois abrem o painel de mídia e o mixer"></a>
+
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-windhawk-dark.svg?v=wh"><img src="assets/d-windhawk-light.svg?v=wh" width="100%" alt="Alt+Tab Flip 3D"></picture></a><br>
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/wh-alt-tab-flip-3d.svg" width="100%" alt="Alt+Tab Flip 3D no Windhawk: usuários e avaliações"></a>
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D funcionando: as janelas voam para uma pilha 3D"></a>
 
-<a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-island-dark.svg?v=wh"><img src="assets/d-island-light.svg?v=wh" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
-<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock no Windhawk: usuários e avaliações"></a>
-
-<a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/windhawk-island.gif" width="100%" alt="Mac Island &amp; Dock funcionando: a ilha no topo da tela se abre com uma notificação nova"></a>
-
-<sub>Faço parte de quem cria mods para o <a href="https://windhawk.net">Windhawk</a>. Os dois estão publicados na loja.</sub>
+<sub>Faço parte de quem cria mods para o <a href="https://windhawk.net">Windhawk</a>. Os três estão publicados na loja: o terceiro, o <a href="https://windhawk.net/mods/windows-terminal-start-minimized">Windows Terminal iniciar minimizado</a>, é um menor, que abre o Windows Terminal já minimizado no logon. <a href="https://github.com/cesarkali/windhawk-mods-showcase">Veja todos juntos</a>.</sub>
 
 <a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg?v=hub"><img src="assets/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
 
