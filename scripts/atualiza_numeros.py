@@ -349,12 +349,14 @@ def faixa_wh(mod, idioma):
 
 
 def atualiza_windhawk():
+    """Regrava as faixas e devolve {mod: usuários}, que decide a ordem no README."""
     # se o catálogo falhar, os números do GitHub seguem sendo publicados
     try:
         mods = catalogo_wh()
     except Exception as e:
         print('::warning::catálogo do Windhawk indisponível: %s' % e)
-        return
+        return None
+    usuarios = {}
     for mid in MODS_WH:
         if mid not in mods:
             print('::warning::%s ainda não está no catálogo do Windhawk' % mid)
@@ -363,8 +365,24 @@ def atualiza_windhawk():
             io.open(destino(idioma, 'wh-%s.svg' % mid), 'w', encoding='utf-8', newline='\n').write(
                 faixa_wh(mods[mid], idioma))
         det = mods[mid]['details']
+        usuarios[mid] = det.get('users', 0)
         print('windhawk %s: %d usuarios | nota %s | %d avaliacoes'
               % (mid, det.get('users', 0), det.get('rating'), det.get('ratingUsers', 0)))
+    return usuarios
+
+
+def grava_numeros(valores, meses, usuarios):
+    """scripts/numeros.json alimenta o texto do README (gera_readme.py). Se o
+    catálogo do Windhawk falhou hoje, a ordem dos mods fica a de ontem."""
+    caminho = os.path.join(RAIZ, 'scripts', 'numeros.json')
+    if usuarios is None:
+        try:
+            usuarios = json.load(io.open(caminho, encoding='utf-8')).get('windhawk', {})
+        except (IOError, ValueError):
+            usuarios = {}
+    n = dict(repos=int(valores[0]), meses=meses, contrib=int(valores[1]), dias=int(valores[2]),
+             privadas=int(valores[3]), windhawk=usuarios)
+    io.open(caminho, 'w', encoding='utf-8', newline='\n').write(json.dumps(n, indent=2) + u'\n')
 
 
 def main():
@@ -411,7 +429,7 @@ def main():
     print('ok: %d repositorios | %d contribuicoes | %d dias | %d privadas | %d meses'
           % (n_repos, total, ativos, privadas, meses))
 
-    atualiza_windhawk()
+    grava_numeros(valores, meses, atualiza_windhawk())
 
 
 if __name__ == '__main__':

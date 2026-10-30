@@ -28,9 +28,9 @@ desktop.ini
 # Ficam só na máquina. O GitHub não precisa delas: os SVGs já estão prontos
 # em assets/ e o README.md já está montado.
 #
-# atualiza_numeros.py NÃO entra aqui de propósito: é ele que a rotina diária
-# executa dentro do Actions. Sem ele versionado, a atualização automática para.
+# atualiza_numeros.py e gera_readme.py NÃO entram aqui de propósito: a rotina
+# diária executa os dois dentro do Actions (os números do dia e depois o texto
+# do README). Sem eles versionados, a atualização automática para.
 scripts/gera_pecas.py
-scripts/gera_readme.py
 scripts/gera_retrato.py
 scripts/allay.b64
