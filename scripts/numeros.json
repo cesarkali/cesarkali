@@ -1,1 +1,11 @@
-{"repos": 39, "meses": 8, "contrib": 940, "dias": 135, "privadas": 749, "windhawk": {"mac-island-dock": 12058, "alt-tab-flip-3d": 8190}}
+{
+  "repos": 40,
+  "meses": 8,
+  "contrib": 986,
+  "dias": 151,
+  "privadas": 757,
+  "windhawk": {
+    "alt-tab-flip-3d": 8190,
+    "mac-island-dock": 12058
+  }
+}

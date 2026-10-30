@@ -51,14 +51,14 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 **What is live**
 
-39 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, three Windhawk mods, an extension published on the Chrome Web Store and client sites running.
+40 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, three Windhawk mods, an extension published on the Chrome Web Store and client sites running.
 
 </td>
 <td width="33%" valign="top">
 
 **How I keep at it**
 
-940 contributions across 135 different days, 749 of them in private repos. Nothing here worked on the first try.
+986 contributions across 151 different days, 757 of them in private repos. Nothing here worked on the first try.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ And plenty of others left behind, because part of building is accepting that not
 
 ### The numbers, unretouched
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="39 / 940 / 135 / 749"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="40 / 986 / 151 / 757"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg?v=hub"><img src="assets/en/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
@@ -240,14 +240,14 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 **O que está no ar**
 
-39 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, três mods do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
+40 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, três mods do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
 
 </td>
 <td width="33%" valign="top">
 
 **Como eu insisto**
 
-940 contribuições em 135 dias diferentes, 749 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
+986 contribuições em 151 dias diferentes, 757 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
 
 </td>
 </tr>
@@ -357,7 +357,7 @@ E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar q
 
 ### Os números, sem maquiagem
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="39 / 940 / 135 / 749"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="40 / 986 / 151 / 757"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=hub"><img src="assets/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
