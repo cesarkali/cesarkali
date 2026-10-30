@@ -1,5 +1,5 @@
 <details name="idioma">
-<summary>&nbsp;🇺🇸 <b>English</b> &nbsp;·&nbsp;</summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/idioma/en-dark.svg"><img src="assets/idioma/en-light.svg" height="38" alt="English · read this profile in English"></picture></summary>
 
 <div align="center">
 
@@ -13,68 +13,25 @@
   <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-15161A?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
   <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-15161A?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
   <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-15161A?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
-  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-15161A?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
-  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-15161A?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
-  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-15161A?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=15161A&style=flat-square" alt="VISITS">
 </div>
 
-<br>
+<h3 align="center">21,217 people use my Windhawk mods</h3>
 
-<picture><source media="(max-width: 640px)" srcset="assets/retrato-m.svg?v=wh"><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" align="right" alt="Júlio Caliberda"></picture>
-
-### I am not a developer
-
-And I will not pretend to be. I do not know enough code to call myself that.
-
-What I do is something else: figuring out what needs to exist, understanding **why** it needs to exist, and steering AI until it becomes a real product. One that opens, that works, that someone uses every day without knowing who made it.
-
-By day I am a **Product Analyst at Bitz Softwares**, listening to the problem of whoever is suffering with it before a single line gets written. This profile is what happens when I point that same attention at my own ideas, with nobody asking.
-
-None of this came from a course, a bootcamp or a roadmap. It came from *"what if this could be done?"* followed by a lot of stubbornness.
-
-<br clear="right">
-
-<table width="100%">
-<tr>
-<td width="34%" valign="top">
-
-**What I bring**
-
-Product direction, systems analysis and prompting. I find what is worth building, explain it precisely, and read the result knowing when it is wrong.
-
-</td>
-<td width="33%" valign="top">
-
-**What is live**
-
-40 projects in 8 months. A finance SaaS with a native app, two Minecraft mods, three Windhawk mods, an extension published on the Chrome Web Store and client sites running.
-
-</td>
-<td width="33%" valign="top">
-
-**How I keep at it**
-
-986 contributions across 151 different days, 757 of them in private repos. Nothing here worked on the first try.
-
-</td>
-</tr>
-</table>
+<p align="center">Made in Brazil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · free, open source, and reviewed by Windhawk before every release.</p>
 
 <br>
 
-### I do not write the code. I write the ask.
+### Júlio Caliberda · Product Analyst · Pato Branco, Brazil <img src="assets/idioma/br.svg" height="13" alt="Brasil">
 
-<sub>What I do does not fit in a commit line. You can measure it by the size of what has to be decided and kept standing.</sub>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/escopo-dark.svg?v=hub"><img src="assets/en/escopo-light.svg?v=hub" width="100%" alt="INSONE"></picture>
+I am a Product Analyst at **Bitz Softwares**: my job is to understand the problem before any line of code. My own projects use the same method. I define what needs to exist, how it should work and when it is done, and AI writes the code.
 
 <br>
 
-### Highlights
+### Windhawk mods
 
 <a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-island-dark.svg?v=wh2"><img src="assets/en/d-island-light.svg?v=wh2" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
 <a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/en/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock on Windhawk: users and ratings"></a>
@@ -86,87 +43,52 @@ Product direction, systems analysis and prompting. I find what is worth building
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D running: windows fly into a 3D stack"></a>
 
-<sub>I am one of the people building mods for <a href="https://windhawk.net">Windhawk</a>. All three are published on the store: the third, <a href="https://windhawk.net/mods/windows-terminal-start-minimized">Windows Terminal Start Minimized</a>, is a small one that opens Windows Terminal minimized at sign-in. <a href="https://github.com/cesarkali/windhawk-mods-showcase">See all of them together</a>.</sub>
+The third one, [Windows Terminal Start Minimized](https://windhawk.net/mods/windows-terminal-start-minimized), is a small one: it opens Windows Terminal minimized at sign-in. [All three together on one page](https://github.com/cesarkali/windhawk-mods-showcase).
 
-<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-financial-dark.svg?v=hub"><img src="assets/en/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
+<a href="https://github.com/cesarkali/windhawk-mods-showcase"><img src="assets/en/mods-windhawk.svg" width="100%" alt="The Windhawk mods in numbers"></a>
 
-<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-allayfriend-dark.svg?v=hub"><img src="assets/en/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
+<div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-insone-dark.svg?v=hub"><img src="assets/en/d-insone-light.svg?v=hub" width="100%" alt="INSONE"></picture>
+**The mods are free and will stay free.**<br>If one of them made your Windows nicer and you want to help:
 
-<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-qt-dark.svg?v=hub"><img src="assets/en/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
+<a href="https://github.com/sponsors/cesarkali"><img src="https://img.shields.io/badge/SPONSOR-15161A?style=for-the-badge&logo=githubsponsors&logoColor=EA4AAA" alt="SPONSOR"></a> <a href="https://livepix.gg/caliberda"><img src="https://img.shields.io/badge/PIX-15161A?style=for-the-badge&logo=pix&logoColor=32BCAD" alt="PIX"></a>
 
-<sub>Click any of them to open. INSONE has no page yet: it is still being written. The Windhawk mods are open source, like every mod there. The other four are closed source.</sub>
+<sub>Found a bug or have an idea? Open an [issue in the official repo](https://github.com/ramensoftware/windhawk-mods/issues), so nothing gets lost.</sub>
 
-<br>
-
-### My portfolio
-
-<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/portfolio-dark.svg?v=hub"><img src="assets/en/portfolio-light.svg?v=hub" width="100%" alt="Portfolio"></picture></a>
+</div>
 
 <br>
 
-### The rest
+### Other projects
 
-<table width="100%">
-<tr><td valign="top" width="50%">
+| Project | What it is |
+|---|---|
+| **[Financial Kali](https://kali.caliberda.com.br)** | multi-company finance management with an AI assistant, on the web and as a native app |
+| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | AI voice dictation into any Windows field, offline if you want · 15 releases · [code](https://github.com/cesarkali/Flow-Voice) |
+| **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | Chrome extension that groups tabs by subject, with the AI running in the browser itself · [code](https://github.com/cesarkali/Semantic-Tab-Grouper) |
+| **[PMTT](https://pmtt.caliberda.com.br)** | records the invisible work of people who build products · [code](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
+| **[The Four Temperaments](https://qt.caliberda.com.br/)** | a self-knowledge inventory with 128 questions, all in the browser |
+| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | data on any Brazilian company from its tax ID · [code](https://github.com/cesarkali/ccnpj) |
 
-**To play**
+<br>
+
+### Games and experiments
 
 - **[Kessler Cascade](https://kessler.caliberda.com.br)** · you have no weapons: you catch what is fired at you and throw it back
 - **[AFÓTICA](https://afotica.caliberda.com.br)** · sound is your sight, and it gives away where you are
-- **[Neon Strike](https://neonstrike.caliberda.com.br)** · cyberpunk arcade with a soundtrack generated in the browser
 - **[HORIZONTE](https://fable-airplane.vercel.app)** · 3D flight with 26 real Brazilian airports
+- **[Neon Strike](https://neonstrike.caliberda.com.br)** · cyberpunk arcade with a soundtrack generated in the browser
 - **[CS2 Mix](https://www.caliberda.com.br/cs2mix)** · balanced teams from real Leetify ratings
+- **[AllayFriend](https://allayfriend.caliberda.com.br)** · Minecraft mod with an AI companion running inside the game
+- **INSONE, Nights Owed** · horror mod for Minecraft with an original story, in progress
 
-</td><td valign="top" width="50%">
+### Clients
 
-**Tools I use every day**
-
-- **[FlowVoice](https://flowvoice.caliberda.com.br/)** · AI voice dictation into any field, offline if you want · [code](https://github.com/cesarkali/Flow-Voice)
-- **[Semantic Tab Grouper](https://stg.caliberda.com.br/)** · groups tabs by subject, with AI running in your browser · [code](https://github.com/cesarkali/Semantic-Tab-Grouper)
-- **[CSGO-SKINS Inspector](https://csskins.caliberda.com.br/)** · inspects the skin in CS2 and shows the Steam price on the site
-- **[PMTT](https://pmtt.caliberda.com.br)** · proves the invisible work nobody sees you doing
-- **[CNPJ API](https://ccnpj.caliberda.com.br/)** · data on any Brazilian company from its tax ID · [code](https://github.com/cesarkali/ccnpj)
-
-</td></tr>
-<tr><td valign="top">
-
-**Minecraft**
-
-- **[AllayFriend](https://allayfriend.caliberda.com.br)** · an AI companion running inside the game
-- **INSONE, Nights Owed** · horror with an original story, in progress
-- **[Modpack HotDorgs](https://www.caliberda.com.br/minecraft)** · tuned to the bone for tick stability
-
-</td><td valign="top">
-
-**Products and clients**
-
-- **[Financial Kali](https://kali.caliberda.com.br)** · multi-company finance management with AI
-- **[Modal de Check-in](https://modal.caliberda.com.br)** · frictionless hotel check-in
-- **[Petshop 4i](https://petshop-4i.vercel.app)** · site and shop for a real pet store
-- **Eatz · BitzWay** · restaurant self-service and a booking portal
-- **[Karol ZK](https://karolzk.com.br)** · creator platforms, with [Isa Titon](https://isatiton.com.br)
-
-</td></tr>
-</table>
-
-<sub>Where there is no link, the code is private or the project is not live yet. <b>OtimizaDorgs</b>, a PC optimizer for games with reversible tweaks, is one of them.</sub>
-
-<details>
-<summary>and a few more experiments</summary>
+Sites for creators and local businesses: [Isa Titon](https://isatiton.com.br), [Karol ZK](https://karolzk.com.br) and [Petshop 4i](https://petshop-4i.vercel.app).
 
 <br>
 
-Not everything becomes a product, and that is fine. Several were born over a weekend just to answer one question: **Bitz Loader** and **Docs Bitz**, internal to BitzSoftwares · **Controle de Pedidos** in Next.js on the Eatz API · **IA ou Humano**, a small test about who wrote the text.
-
-And plenty of others left behind, because part of building is accepting that not every idea deserves to continue.
-
-</details>
-
-<br>
-
-### The numbers, unretouched
+### The numbers
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="40 / 986 / 151 / 757"></picture>
 
@@ -174,21 +96,13 @@ And plenty of others left behind, because part of building is accepting that not
 
 <br>
 
-### If you made it this far
-
-If any of this made you want to build your own, reach out. I enjoy talking about the idea far more than about the tool.
-
-And if you also think you do not know enough to start: **I thought that too.**
-
-<div align="center">
-<sub><a href="https://www.caliberda.com.br">caliberda.com.br</a></sub>
-</div>
+Get in touch: [julio@caliberda.com.br](mailto:julio@caliberda.com.br) · [LinkedIn](https://linkedin.com/in/hxtdll) · [caliberda.com.br](https://www.caliberda.com.br)
 
 
 </details>
 
 <details name="idioma" open>
-<summary>&nbsp;🇧🇷 <b>Português</b> &nbsp;·&nbsp;</summary>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/idioma/pt-dark.svg"><img src="assets/idioma/pt-light.svg" height="38" alt="Português · original, feito no Brasil"></picture></summary>
 
 <div align="center">
 
@@ -202,68 +116,25 @@ And if you also think you do not know enough to start: **I thought that too.**
   <a href="https://linkedin.com/in/hxtdll"><img src="https://img.shields.io/badge/LINKEDIN-15161A?style=flat-square&logo=linkedin&logoColor=1E90C8" alt="LINKEDIN"></a>
   <a href="mailto:julio@caliberda.com.br"><img src="https://img.shields.io/badge/EMAIL-15161A?style=flat-square&logo=maildotru&logoColor=F08E71" alt="EMAIL"></a>
   <a href="https://instagram.com/cesar.kali"><img src="https://img.shields.io/badge/INSTAGRAM-15161A?style=flat-square&logo=instagram&logoColor=E4749B" alt="INSTAGRAM"></a>
-  <a href="https://www.youtube.com/@hotdorgs"><img src="https://img.shields.io/badge/YOUTUBE-15161A?style=flat-square&logo=youtube&logoColor=E85D5D" alt="YOUTUBE"></a>
-  <a href="https://discord.gg/e6VkayX4nG"><img src="https://img.shields.io/badge/DISCORD-15161A?style=flat-square&logo=discord&logoColor=8FA0F0" alt="DISCORD"></a>
-  <a href="https://steamcommunity.com/id/hotdorgs/"><img src="https://img.shields.io/badge/STEAM-15161A?style=flat-square&logo=steam&logoColor=8FD8F2" alt="STEAM"></a>
 </div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=15161A&style=flat-square" alt="VISITAS">
 </div>
 
-<br>
+<h3 align="center">21.217 pessoas usam os meus mods do Windhawk</h3>
 
-<picture><source media="(max-width: 640px)" srcset="assets/retrato-m.svg?v=wh"><source media="(prefers-color-scheme: dark)" srcset="assets/retrato-dark.svg?v=hub"><img src="assets/retrato-light.svg?v=hub" align="right" alt="Júlio Caliberda"></picture>
-
-### Não sou desenvolvedor
-
-E não vou fingir que sou. Não sei código o suficiente para me chamar disso.
-
-O que eu faço é outra coisa: descobrir o que precisa existir, entender **por que** precisa existir, e conduzir a IA até aquilo virar produto de verdade. Que abre, que funciona, que alguém usa todo dia sem saber quem fez.
-
-De dia sou **Product Analyst na Bitz Softwares**, ouvindo o problema de quem sofre com ele antes de qualquer linha ser escrita. Este perfil é o que acontece quando eu aponto o mesmo olhar para as minhas ideias, sem ninguém ter pedido.
-
-Nada aqui saiu de curso, bootcamp ou roadmap. Saiu de *"e se desse pra fazer isso?"* seguido de muita teimosia.
-
-<br clear="right">
-
-<table width="100%">
-<tr>
-<td width="34%" valign="top">
-
-**O que eu faço**
-
-Direção de produto, análise de sistema e prompt. Descubro o que construir, explico com precisão e leio o resultado sabendo quando está errado.
-
-</td>
-<td width="33%" valign="top">
-
-**O que está no ar**
-
-40 projetos em 8 meses. Um SaaS financeiro com app nativo, dois mods de Minecraft, três mods do Windhawk, extensão publicada na Chrome Web Store e sites de cliente rodando.
-
-</td>
-<td width="33%" valign="top">
-
-**Como eu insisto**
-
-986 contribuições em 151 dias diferentes, 757 delas em repositório privado. Nenhum projeto aqui funcionou de primeira.
-
-</td>
-</tr>
-</table>
+<p align="center">Feitos no Brasil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · gratuitos, de código aberto e revisados pelo Windhawk antes de cada versão.</p>
 
 <br>
 
-### Eu não escrevo o código. Escrevo o pedido.
+### Júlio Caliberda · Product Analyst · Pato Branco, PR <img src="assets/idioma/br.svg" height="13" alt="Brasil">
 
-<sub>O que eu faço não cabe numa linha de commit. Dá para medir pelo tamanho do que precisa ser decidido e mantido de pé.</sub>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/escopo-dark.svg?v=hub"><img src="assets/escopo-light.svg?v=hub" width="100%" alt="INSONE"></picture>
+Sou Product Analyst na **Bitz Softwares**: meu trabalho é entender o problema antes de qualquer linha de código. Nos meus projetos uso o mesmo método. Eu defino o que precisa existir, como deve funcionar e quando está pronto, e a IA escreve o código.
 
 <br>
 
-### Em destaque
+### Mods do Windhawk
 
 <a href="https://windhawk.net/mods/mac-island-dock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-island-dark.svg?v=wh2"><img src="assets/d-island-light.svg?v=wh2" width="100%" alt="Mac Island &amp; Dock"></picture></a><br>
 <a href="https://windhawk.net/mods/mac-island-dock"><img src="assets/wh-mac-island-dock.svg" width="100%" alt="Mac Island &amp; Dock no Windhawk: usuários e avaliações"></a>
@@ -275,87 +146,52 @@ Direção de produto, análise de sistema e prompt. Descubro o que construir, ex
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D funcionando: as janelas voam para uma pilha 3D"></a>
 
-<sub>Faço parte de quem cria mods para o <a href="https://windhawk.net">Windhawk</a>. Os três estão publicados na loja: o terceiro, o <a href="https://windhawk.net/mods/windows-terminal-start-minimized">Windows Terminal iniciar minimizado</a>, é um menor, que abre o Windows Terminal já minimizado no logon. <a href="https://github.com/cesarkali/windhawk-mods-showcase">Veja todos juntos</a>.</sub>
+O terceiro, o [Windows Terminal iniciar minimizado](https://windhawk.net/mods/windows-terminal-start-minimized), é um menor: abre o Windows Terminal já minimizado no logon. [Os três juntos, numa página só](https://github.com/cesarkali/windhawk-mods-showcase).
 
-<a href="https://kali.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-financial-dark.svg?v=hub"><img src="assets/d-financial-light.svg?v=hub" width="100%" alt="Financial Kali"></picture></a>
+<a href="https://github.com/cesarkali/windhawk-mods-showcase"><img src="assets/mods-windhawk.svg" width="100%" alt="Os mods do Windhawk em números"></a>
 
-<a href="https://allayfriend.caliberda.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-allayfriend-dark.svg?v=hub"><img src="assets/d-allayfriend-light.svg?v=hub" width="100%" alt="AllayFriend"></picture></a>
+<div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-insone-dark.svg?v=hub"><img src="assets/d-insone-light.svg?v=hub" width="100%" alt="INSONE"></picture>
+**Os mods são de graça e vão continuar assim.**<br>Se algum deixou o seu Windows melhor e você quiser dar uma força:
 
-<a href="https://qt.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-qt-dark.svg?v=hub"><img src="assets/d-qt-light.svg?v=hub" width="100%" alt="Quatro Temperamentos"></picture></a>
+<a href="https://github.com/sponsors/cesarkali"><img src="https://img.shields.io/badge/APOIE-15161A?style=for-the-badge&logo=githubsponsors&logoColor=EA4AAA" alt="APOIE"></a> <a href="https://livepix.gg/caliberda"><img src="https://img.shields.io/badge/PIX-15161A?style=for-the-badge&logo=pix&logoColor=32BCAD" alt="PIX"></a>
 
-<sub>Clique em qualquer um para abrir. O INSONE ainda não tem página: está sendo escrito. Os mods do Windhawk têm código aberto, como todo mod de lá. Os outros quatro têm o código fechado.</sub>
+<sub>Achou um bug ou tem uma ideia? Abra uma [issue no repositório oficial](https://github.com/ramensoftware/windhawk-mods/issues), assim nada se perde.</sub>
 
-<br>
-
-### Meu portfólio
-
-<a href="https://portifolio.caliberda.com.br/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-dark.svg?v=hub"><img src="assets/portfolio-light.svg?v=hub" width="100%" alt="Portfolio"></picture></a>
+</div>
 
 <br>
 
-### O resto
+### Outros projetos
 
-<table width="100%">
-<tr><td valign="top" width="50%">
+| Projeto | O que é |
+|---|---|
+| **[Financial Kali](https://kali.caliberda.com.br)** | gestão financeira multiempresa, com assistente de IA, na web e em app nativo |
+| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | ditado por voz com IA em qualquer campo do Windows, offline se quiser · 15 versões publicadas · [código](https://github.com/cesarkali/Flow-Voice) |
+| **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | extensão do Chrome que agrupa abas pelo assunto, com a IA rodando no próprio navegador · [código](https://github.com/cesarkali/Semantic-Tab-Grouper) |
+| **[PMTT](https://pmtt.caliberda.com.br)** | registra o trabalho invisível de quem faz produto · [código](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
+| **[Os Quatro Temperamentos](https://qt.caliberda.com.br/)** | inventário de autoconhecimento com 128 perguntas, tudo no navegador |
+| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | dados de qualquer empresa brasileira pelo CNPJ · [código](https://github.com/cesarkali/ccnpj) |
 
-**Para jogar**
+<br>
+
+### Jogos e experimentos
 
 - **[Kessler Cascade](https://kessler.caliberda.com.br)** · você não tem armas: captura o que atiram em você e devolve
 - **[AFÓTICA](https://afotica.caliberda.com.br)** · o som é a sua visão, e denuncia onde você está
-- **[Neon Strike](https://neonstrike.caliberda.com.br)** · arcade cyberpunk com trilha gerada no navegador
 - **[HORIZONTE](https://fable-airplane.vercel.app)** · voo 3D com 26 aeroportos brasileiros reais
+- **[Neon Strike](https://neonstrike.caliberda.com.br)** · arcade cyberpunk com trilha gerada no navegador
 - **[CS2 Mix](https://www.caliberda.com.br/cs2mix)** · times equilibrados pelo rating real do Leetify
+- **[AllayFriend](https://allayfriend.caliberda.com.br)** · mod de Minecraft com um companheiro de IA rodando dentro do jogo
+- **INSONE, Noites Devidas** · mod de terror para Minecraft com narrativa própria, em construção
 
-</td><td valign="top" width="50%">
+### Clientes
 
-**Ferramentas que eu uso todo dia**
-
-- **[FlowVoice](https://flowvoice.caliberda.com.br/)** · ditado por voz com IA em qualquer campo, offline se quiser · [código](https://github.com/cesarkali/Flow-Voice)
-- **[Semantic Tab Grouper](https://stg.caliberda.com.br/)** · agrupa abas pelo assunto, com IA rodando no seu navegador · [código](https://github.com/cesarkali/Semantic-Tab-Grouper)
-- **[CSGO-SKINS Inspector](https://csskins.caliberda.com.br/)** · inspeciona a skin no CS2 e mostra o preço da Steam direto no site
-- **[PMTT](https://pmtt.caliberda.com.br)** · prova o trabalho invisível que ninguém vê você fazendo
-- **[CNPJ API](https://ccnpj.caliberda.com.br/)** · dados de qualquer empresa brasileira pelo CNPJ · [código](https://github.com/cesarkali/ccnpj)
-
-</td></tr>
-<tr><td valign="top">
-
-**Minecraft**
-
-- **[AllayFriend](https://allayfriend.caliberda.com.br)** · companheiro de IA rodando dentro do jogo
-- **INSONE, Noites Devidas** · terror com narrativa própria, em construção
-- **[Modpack HotDorgs](https://www.caliberda.com.br/minecraft)** · ajustado no osso para estabilidade de tick
-
-</td><td valign="top">
-
-**Produtos e clientes**
-
-- **[Financial Kali](https://kali.caliberda.com.br)** · gestão financeira multi-empresa com IA
-- **[Modal de Check-in](https://modal.caliberda.com.br)** · check-in de hotel sem atrito
-- **[Petshop 4i](https://petshop-4i.vercel.app)** · site e loja de um petshop real
-- **Eatz · BitzWay** · autoatendimento de restaurante e portal de reservas
-- **[Karol ZK](https://karolzk.com.br)** · plataformas de creator, com [Isa Titon](https://isatiton.com.br)
-
-</td></tr>
-</table>
-
-<sub>Onde não tem link, o código é privado ou o projeto ainda não está no ar. <b>OtimizaDorgs</b>, otimizador de PC para jogos com tweaks reversíveis, é um deles.</sub>
-
-<details>
-<summary>e mais uns quantos experimentos</summary>
+Sites para quem cria conteúdo e para negócios locais: [Isa Titon](https://isatiton.com.br), [Karol ZK](https://karolzk.com.br) e o [Petshop 4i](https://petshop-4i.vercel.app).
 
 <br>
 
-Nem tudo vira produto, e tudo bem. Vários nasceram num fim de semana só para responder uma pergunta: **Bitz Loader** e **Docs Bitz**, internos da BitzSoftwares · **Controle de Pedidos** em Next.js sobre a API Eatz · **IA ou Humano**, um teste pequeno sobre quem escreveu o texto.
-
-E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar que nem toda ideia merece continuar.
-
-</details>
-
-<br>
-
-### Os números, sem maquiagem
+### Os números
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="40 / 986 / 151 / 757"></picture>
 
@@ -363,15 +199,7 @@ E outros tantos que ficaram pelo caminho, porque parte de construir é aceitar q
 
 <br>
 
-### Se você chegou até aqui
-
-Se alguma dessas coisas te deu vontade de construir a sua, me chama. Gosto muito mais de conversar sobre a ideia do que sobre a ferramenta.
-
-E se você também acha que não sabe o suficiente para começar: **eu também achava.**
-
-<div align="center">
-<sub><a href="https://www.caliberda.com.br">caliberda.com.br</a></sub>
-</div>
+Para conversar: [julio@caliberda.com.br](mailto:julio@caliberda.com.br) · [LinkedIn](https://linkedin.com/in/hxtdll) · [caliberda.com.br](https://www.caliberda.com.br)
 
 
 </details>

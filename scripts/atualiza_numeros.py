@@ -8,7 +8,7 @@ Token: usa GH_PAT quando existir e cai para GITHUB_TOKEN caso contrario. Para o
 numero de projetos contar os privados, o GH_PAT precisa enxergar todos os
 repositorios (fine-grained: "All repositories" com Metadata read-only).
 """
-import os, io, json, datetime, urllib.request
+import os, io, json, math, datetime, urllib.request
 from xml.sax.saxutils import escape
 
 USUARIO = os.environ.get('GH_USER', 'cesarkali')
@@ -284,13 +284,24 @@ def numeros(t, itens):
 CATALOGO_WH = 'https://mods.windhawk.net/catalog.json'
 MODS_WH = ['alt-tab-flip-3d', 'mac-island-dock']
 
-COR_WH = dict(bg='#06090F', ink='#EAF2FF', dim='#AFC0D6', mut='#6E8099', acc='#5AB4FF', star='#FFC857')
+COR_WH = dict(bg='#080C14', ink='#EAF2FF', dim='#AFC0D6', mut='#6E8099', acc='#5AB4FF', star='#FFC857',
+              linha='#FFFFFF', fatias=['#5AB4FF', '#A9D6FF', '#3D5878'])
+
+# os mods somados no card de números; as faixas de usuários saem só para MODS_WH
+MODS_TODOS = MODS_WH + ['windows-terminal-start-minimized']
+REPO_WH = 'ramensoftware/windhawk-mods'
+FONTE_WH = 'https://raw.githubusercontent.com/%s/main/mods/%%s.wh.cpp' % REPO_WH
+
+MES_CURTO = {
+ 'pt': [u'JAN', u'FEV', u'MAR', u'ABR', u'MAI', u'JUN', u'JUL', u'AGO', u'SET', u'OUT', u'NOV', u'DEZ'],
+ 'en': [u'JAN', u'FEB', u'MAR', u'APR', u'MAY', u'JUN', u'JUL', u'AUG', u'SEP', u'OCT', u'NOV', u'DEC'],
+}
 
 TXT_WH = {
- 'pt': dict(users=u'pessoas usando', aval=(u'avaliação', u'avaliações'), sem=u'ainda sem avaliação',
-            versao=u'VERSÃO %s · DADOS DO WINDHAWK', dec=u','),
- 'en': dict(users=u'people using it', aval=(u'rating', u'ratings'), sem=u'no ratings yet',
-            versao=u'VERSION %s · WINDHAWK DATA', dec=u'.'),
+ 'pt': dict(users=u'PESSOAS USANDO', aval=(u'AVALIAÇÃO', u'AVALIAÇÕES'), sem=u'AINDA SEM AVALIAÇÃO',
+            fonte=u'DADOS DE %s', dec=u','),
+ 'en': dict(users=u'PEOPLE USING IT', aval=(u'RATING', u'RATINGS'), sem=u'NO RATINGS YET',
+            fonte=u'AS OF %s', dec=u'.'),
 }
 
 
@@ -305,57 +316,254 @@ def milhar(n, idioma):
     return u'{:,}'.format(n).replace(u',', u'.' if idioma == 'pt' else u',')
 
 
+def hoje_curto(idioma, ano=True):
+    h = datetime.date.today()
+    s = u'%d %s' % (h.day, MES_CURTO[idioma][h.month - 1])
+    return u'%s %d' % (s, h.year) if ano else s
+
+
+def media_votos(votos):
+    n = sum(votos)
+    return (sum((i + 1) * v for i, v in enumerate(votos)) / float(n) if n else 0.0), n
+
+
+def estrela(x, y, r, cor, extra=u''):
+    """Estrela de cinco pontas com centro em (x, y) e raio externo r."""
+    pts = []
+    for k in range(10):
+        a = math.pi / 2 + k * math.pi / 5
+        rr = r if k % 2 == 0 else r * 0.45
+        pts.append(u'%.2f %.2f' % (x + rr * math.cos(a), y - rr * math.sin(a)))
+    return u'<path d="M%s Z" fill="%s"%s/>' % (u' L'.join(pts), cor, extra)
+
+
 def faixa_wh(mod, idioma):
-    """Faixa que fica logo abaixo do card do mod: usuários, estrelas e versão."""
+    """Faixa logo abaixo do card do mod: quem usa, a nota com as estrelas, como
+    as avaliações se distribuem de 5 a 1 estrela, e a versão."""
     c, L = COR_WH, TXT_WH[idioma]
     det, meta = mod['details'], mod['metadata']
     votos = det.get('ratingBreakdown') or [0] * 5
-    n = sum(votos)
-    media = sum((i + 1) * v for i, v in enumerate(votos)) / float(n) if n else 0.0
-
-    estrelas = []
-    for i in range(5):
-        x = 330 + i * 26
-        cheio = max(0.0, min(1.0, media - i))
-        d = (u'M%.1f 22 L%.1f 30.5 L%.1f 31.2 L%.1f 37 L%.1f 46 L%.1f 41.3 L%.1f 46 L%.1f 37 L%.1f 31.2 L%.1f 30.5 Z'
-             % (x + 10, x + 12.9, x + 20, x + 14.7, x + 16.2, x + 10, x + 3.8, x + 5.3, x, x + 7.1))
-        estrelas.append(u'<clipPath id="e%d"><rect x="%.1f" y="18" width="%.1f" height="32"/></clipPath>'
-                        u'<path d="%s" fill="%s" opacity=".22"/><path d="%s" fill="%s" clip-path="url(#e%d)"/>'
-                        % (i, x, 20 * cheio, d, c['mut'], d, c['star'], i))
-    if n:
-        nota = u'%s · %d %s' % ((u'%.1f' % media).replace(u'.', L['dec']), n, L['aval'][n != 1])
-    else:
-        nota = L['sem']
-
+    media, n = media_votos(votos)
     users = milhar(det.get('users', 0), idioma)
-    return u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 68" width="1000" height="68" role="img" aria-label="%(alt)s">
+    nota = (u'%.1f' % media).replace(u'.', L['dec']) if n else u'–'
+
+    # estrelas logo depois da nota, preenchidas pela média
+    x0 = 296 + len(nota) * 19.5 + 14
+    est = []
+    for i in range(5):
+        cx = x0 + i * 19
+        cheio = max(0.0, min(1.0, media - i))
+        est.append(u'<clipPath id="f%d"><rect x="%.1f" y="22" width="%.1f" height="20"/></clipPath>%s%s'
+                   % (i, cx - 8, 16 * cheio, estrela(cx, 33, 8, c['mut'], u' opacity=".35"'),
+                      estrela(cx, 33, 8, c['star'], u' clip-path="url(#f%d)"' % i)))
+
+    # distribuição: uma barra por quantidade de estrelas, a maior ocupa a trilha inteira
+    maior = float(max(votos) or 1)
+    barras = []
+    for k, i in enumerate(range(4, -1, -1)):
+        y = 19 + k * 11
+        w = 190 * votos[i] / maior
+        barras.append(u'<text x="606" y="%.1f" class="d">%d</text>'
+                      u'<rect x="620" y="%.1f" width="190" height="4" rx="2" fill="%s" opacity=".08"/>'
+                      u'<rect x="620" y="%.1f" width="%.1f" height="4" rx="2" fill="%s">'
+                      u'<animate attributeName="width" values="0;%.1f" dur="1.1s" begin="%.2fs" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>'
+                      % (y + 4.5, i + 1, y, c['linha'], y, w, c['acc'] if i == 4 else c['dim'], w, 0.08 * k))
+
+    versao = meta.get('version', u'?')
+    return u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 88" width="1000" height="88" role="img" aria-label="%(alt)s">
   <title>%(nome)s no Windhawk</title>
   <style>
-    .n { font-family: %(SANS)s; font-size: 30px; font-weight: 800; fill: %(ink)s; letter-spacing: -.5px; }
-    .f { font-family: %(SANS)s; font-size: 14.5px; fill: %(dim)s; }
-    .m { font-family: %(MONO)s; font-size: 10.5px; letter-spacing: 1.4px; fill: %(mut)s; }
+    .n { font-family: %(SANS)s; font-size: 34px; font-weight: 800; fill: %(ink)s; letter-spacing: -.8px; font-variant-numeric: tabular-nums; }
+    .l { font-family: %(MONO)s; font-size: 10px; letter-spacing: 1.6px; fill: %(mut)s; }
+    .d { font-family: %(MONO)s; font-size: 9px; fill: %(mut)s; text-anchor: end; }
+    .v { font-family: %(MONO)s; font-size: 11.5px; letter-spacing: 1px; fill: %(acc)s; text-anchor: middle; }
   </style>
-  <rect x=".5" y=".5" width="999" height="67" fill="%(bg)s" stroke="%(acc)s" stroke-opacity=".35"/>
-  <text x="28" y="45" class="n">%(users)s</text>
-  <text x="%(ux).1f" y="44" class="f">%(lu)s</text>
+  <rect x=".5" y=".5" width="999" height="87" rx="12" fill="%(bg)s" stroke="%(acc)s" stroke-opacity=".28"/>
+  <path d="M13 .5 H987" stroke="%(linha)s" stroke-opacity=".07"/>
+  <text x="30" y="48" class="n">%(users)s</text>
+  <text x="30" y="70" class="l">%(lu)s</text>
+  <path d="M262 18 V70" stroke="%(linha)s" stroke-opacity=".08"/>
+  <text x="296" y="48" class="n">%(nota)s</text>
   %(EST)s
-  <text x="470" y="40" class="f">%(nota)s</text>
-  <text x="972" y="39" class="m" text-anchor="end">%(versao)s</text>
+  <text x="296" y="70" class="l">%(lav)s</text>
+  <path d="M574 18 V70" stroke="%(linha)s" stroke-opacity=".08"/>
+  %(BARRAS)s
+  <path d="M846 18 V70" stroke="%(linha)s" stroke-opacity=".08"/>
+  <rect x="872" y="24" width="100" height="24" rx="12" fill="%(acc)s" fill-opacity=".08" stroke="%(acc)s" stroke-opacity=".45"/>
+  <text x="922" y="40" class="v">v%(versao)s</text>
+  <text x="922" y="70" class="l" text-anchor="middle">%(fonte)s</text>
 </svg>
 ''' % dict(SANS=SANS, MONO=MONO, nome=escape(meta.get('name', '')), users=users, lu=L['users'],
-           ux=36 + len(users) * 17.5, EST=u''.join(estrelas), nota=nota,
-           versao=L['versao'] % meta.get('version', u'?'),
-           alt=u'%s %s, %s' % (users, L['users'], nota), **c)
+           nota=nota, EST=u''.join(est), BARRAS=u'\n  '.join(barras), versao=escape(versao),
+           lav=(u'%s %s' % (milhar(n, idioma), L['aval'][n != 1])) if n else L['sem'],
+           fonte=L['fonte'] % hoje_curto(idioma, ano=False),
+           alt=u'%s %s, %s' % (users, L['users'].lower(), nota), **c)
+
+
+# ───────────────────────── OS MODS EM NÚMEROS ─────────────────────────
+# Um card só para os mods publicados: quem usa (com a fatia de cada mod), a
+# nota média, o tamanho do código lido do repositório oficial e o ritmo.
+TXT_NUM = {
+ 'pt': dict(h=u'OS MODS DO WINDHAWK EM NÚMEROS', atual=u'ATUALIZADO EM %s',
+            hero=u'pessoas usando os %d mods',
+            itens=[(u'de 5 estrelas', u'média de %(avaliacoes)s avaliações'),
+                   (u'linhas de C++', u'em %(n_mods)d arquivos abertos'),
+                   (u'versões publicadas', u'%(prs)d PRs aceitos no Windhawk'),
+                   (u'idiomas', u'na interface da ilha'),
+                   (u'dias no ar', u'desde o primeiro mod'),
+                   (u'mods publicados', u'no catálogo oficial')],
+            fim=u'Tudo em código aberto no repositório oficial do Windhawk. Cada versão passa pela revisão de um mantenedor antes de chegar a você.'),
+ 'en': dict(h=u'THE WINDHAWK MODS IN NUMBERS', atual=u'UPDATED %s',
+            hero=u'people using the %d mods',
+            itens=[(u'out of 5 stars', u'average of %(avaliacoes)s ratings'),
+                   (u'lines of C++', u'in %(n_mods)d open source files'),
+                   (u'versions released', u'%(prs)d PRs merged into Windhawk'),
+                   (u'languages', u'in the island&apos;s interface'),
+                   (u'days live', u'since the first mod'),
+                   (u'mods published', u'in the official catalog')],
+            fim=u'All open source in the official Windhawk repository. Every release is reviewed by a maintainer before it reaches you.'),
+}
+
+
+def api_github(caminho):
+    req = urllib.request.Request('https://api.github.com/' + caminho)
+    req.add_header('Authorization', 'Bearer %s' % TOKEN)
+    req.add_header('Accept', 'application/vnd.github+json')
+    req.add_header('User-Agent', 'perfil-%s' % USUARIO)
+    with urllib.request.urlopen(req, timeout=45) as r:
+        return json.loads(r.read().decode('utf-8'))
+
+
+def linhas_de_codigo(mid):
+    """Linhas não vazias do .cpp, sem o README e as configurações, que moram em
+    comentários dentro do próprio arquivo. Devolve também quantos idiomas a
+    interface do mod tem (kTextLanguages), ou 1 se ele não traduz nada."""
+    req = urllib.request.Request(FONTE_WH % mid)
+    req.add_header('User-Agent', 'perfil-%s' % USUARIO)
+    with urllib.request.urlopen(req, timeout=45) as r:
+        linhas = r.read().decode('utf-8').split('\n')
+    codigo, dentro, idiomas = 0, False, 1
+    for l in linhas:
+        if '==WindhawkModReadme==' in l or '==WindhawkModSettings==' in l:
+            dentro = True
+        if not dentro and l.strip():
+            codigo += 1
+        if '==/WindhawkModReadme==' in l or '==/WindhawkModSettings==' in l:
+            dentro = False
+        if l.startswith('constexpr int kTextLanguages ='):
+            idiomas = int(l.split('=')[1].strip(' ;'))
+    return codigo, idiomas
+
+
+def versoes_publicadas(mid):
+    """Cada versão publicada é um PR aceito que mexeu no arquivo do mod."""
+    total, pagina = 0, 1
+    while True:
+        lote = api_github('repos/%s/commits?path=mods/%s.wh.cpp&per_page=100&page=%d' % (REPO_WH, mid, pagina))
+        total += len(lote)
+        if len(lote) < 100:
+            return total
+        pagina += 1
+
+
+def dados_mods(mods):
+    """Os números do card, somados entre os mods publicados. Cada um vem de uma
+    fonte só (catálogo do Windhawk ou o repositório oficial), sem estimativa."""
+    publicados = [m for m in MODS_TODOS if m in mods]
+    votos, codigo, idiomas, versoes, por_mod = [0] * 5, 0, 1, 0, []
+    for mid in publicados:
+        det = mods[mid]['details']
+        votos = [a + b for a, b in zip(votos, det.get('ratingBreakdown') or [0] * 5)]
+        linhas, idi = linhas_de_codigo(mid)
+        codigo += linhas
+        idiomas = max(idiomas, idi)
+        versoes += versoes_publicadas(mid)
+        por_mod.append(dict(id=mid, nome=mods[mid]['metadata'].get('name', mid), usuarios=det.get('users', 0)))
+    media, n = media_votos(votos)
+    primeiro = min(mods[m]['details']['published'] for m in publicados) / 1000.0
+    dias = (datetime.date.today() - datetime.datetime.fromtimestamp(primeiro, datetime.timezone.utc).date()).days
+    prs = api_github('search/issues?q=repo:%s+is:pr+is:merged+author:%s' % (REPO_WH, USUARIO))['total_count']
+    return dict(usuarios=sum(m['usuarios'] for m in por_mod), media=media, avaliacoes=n, codigo=codigo,
+                versoes=versoes, prs=prs, idiomas=idiomas, dias=dias, n_mods=len(publicados),
+                por_mod=sorted(por_mod, key=lambda m: -m['usuarios']))
+
+
+def card_mods(d, idioma):
+    """O total de quem usa em destaque, a fatia de cada mod numa barra, e seis
+    números ao lado separados por linhas finas."""
+    c, L = COR_WH, TXT_NUM[idioma]
+    fmt = dict(avaliacoes=milhar(d['avaliacoes'], idioma), n_mods=d['n_mods'], prs=d['prs'])
+    vals = [(u'%.1f' % d['media']).replace(u'.', TXT_WH[idioma]['dec']), milhar(d['codigo'], idioma),
+            str(d['versoes']), str(d['idiomas']), str(d['dias']), str(d['n_mods'])]
+
+    # barra com a fatia de cada mod, e a legenda logo abaixo
+    total = float(d['usuarios'] or 1)
+    x, fatias, legenda = 36.0, [], []
+    for k, m in enumerate(d['por_mod']):
+        w = max(2.0, 320 * m['usuarios'] / total - (2 if k < len(d['por_mod']) - 1 else 0))
+        cor = c['fatias'][min(k, len(c['fatias']) - 1)]
+        fatias.append(u'<rect x="%.1f" y="186" width="%.1f" height="8" rx="4" fill="%s">'
+                      u'<animate attributeName="width" values="0;%.1f" dur="1.2s" begin="%.2fs" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>'
+                      % (x, w, cor, w, 0.15 * k))
+        x += w + 2
+        y = 222 + k * 22
+        legenda.append(u'<circle cx="40" cy="%.1f" r="4" fill="%s"/><text x="52" y="%.1f" class="g">%s</text>'
+                       u'<text x="356" y="%.1f" class="q">%s · %d%%</text>'
+                       % (y - 4, cor, y, escape(m['nome']), y, milhar(m['usuarios'], idioma),
+                          round(100 * m['usuarios'] / total)))
+
+    grade = []
+    for i, (val, (rot, sub)) in enumerate(zip(vals, L['itens'])):
+        gx, gy = 444 + (i % 3) * 176, 118 + (i // 3) * 104
+        extra = estrela(gx + len(val) * 21 + 16, gy - 14, 9, c['star']) if i == 0 else u''
+        grade.append(u'<text x="%d" y="%d" class="m">%s</text>%s<text x="%d" y="%d" class="r">%s</text>'
+                     u'<text x="%d" y="%d" class="s">%s</text>' % (gx, gy, val, extra, gx, gy + 24, rot, gx, gy + 42, sub % fmt))
+
+    alt = u'%s %s; ' % (milhar(d['usuarios'], idioma), L['hero'] % d['n_mods']) + u', '.join(
+        u'%s %s' % (v, r) for v, (r, s) in zip(vals, L['itens']))
+    return u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="%(ALT)s.">
+  <title>%(H)s</title>
+  <style>
+    .h { font-family: %(MONO)s; font-size: 11px; letter-spacing: 2.4px; }
+    .big { font-family: %(SANS)s; font-size: 66px; font-weight: 800; fill: %(ink)s; letter-spacing: -2px; font-variant-numeric: tabular-nums; }
+    .hl { font-family: %(SANS)s; font-size: 15px; fill: %(dim)s; }
+    .g { font-family: %(SANS)s; font-size: 13px; fill: %(dim)s; }
+    .q { font-family: %(MONO)s; font-size: 11px; fill: %(mut)s; text-anchor: end; }
+    .m { font-family: %(SANS)s; font-size: 36px; font-weight: 800; fill: %(ink)s; letter-spacing: -1px; font-variant-numeric: tabular-nums; }
+    .r { font-family: %(SANS)s; font-size: 14px; font-weight: 600; fill: %(ink)s; }
+    .s { font-family: %(SANS)s; font-size: 12.5px; fill: %(dim)s; }
+    .f { font-family: %(SANS)s; font-size: 12.5px; fill: %(mut)s; }
+  </style>
+  <rect x=".5" y=".5" width="999" height="329" rx="14" fill="%(bg)s" stroke="%(acc)s" stroke-opacity=".28"/>
+  <path d="M15 .5 H985" stroke="%(linha)s" stroke-opacity=".07"/>
+  <text x="36" y="40" class="h" fill="%(acc)s">%(H)s</text>
+  <text x="964" y="40" class="h" fill="%(mut)s" text-anchor="end">%(ATUAL)s</text>
+  <path d="M36 58 H964" stroke="%(linha)s" stroke-opacity=".08"/>
+  <text x="32" y="140" class="big">%(USERS)s</text>
+  <text x="36" y="168" class="hl">%(HERO)s</text>
+  %(FATIAS)s
+  %(LEGENDA)s
+  <path d="M412 80 V284" stroke="%(linha)s" stroke-opacity=".08"/>
+  <path d="M444 172 H964" stroke="%(linha)s" stroke-opacity=".08"/>
+  <path d="M608 80 V284 M784 80 V284" stroke="%(linha)s" stroke-opacity=".05"/>
+  %(GRADE)s
+  <path d="M36 296 H964" stroke="%(linha)s" stroke-opacity=".08"/>
+  <text x="36" y="318" class="f">%(FIM)s</text>
+</svg>
+''' % dict(ALT=alt, H=L['h'], ATUAL=L['atual'] % hoje_curto(idioma), USERS=milhar(d['usuarios'], idioma),
+           HERO=L['hero'] % d['n_mods'], FATIAS=u''.join(fatias), LEGENDA=u'\n  '.join(legenda),
+           GRADE=u'\n  '.join(grade), FIM=L['fim'], MONO=MONO, SANS=SANS, **c)
 
 
 def atualiza_windhawk():
-    """Regrava as faixas e devolve {mod: usuários}, que decide a ordem no README."""
+    """Regrava as faixas e o card de números; devolve ({mod: usuários}, números
+    dos mods), que decidem a ordem dos mods e o texto do README."""
     # se o catálogo falhar, os números do GitHub seguem sendo publicados
     try:
         mods = catalogo_wh()
     except Exception as e:
         print('::warning::catálogo do Windhawk indisponível: %s' % e)
-        return None
+        return None, None
     usuarios = {}
     for mid in MODS_WH:
         if mid not in mods:
@@ -368,20 +576,32 @@ def atualiza_windhawk():
         usuarios[mid] = det.get('users', 0)
         print('windhawk %s: %d usuarios | nota %s | %d avaliacoes'
               % (mid, det.get('users', 0), det.get('rating'), det.get('ratingUsers', 0)))
-    return usuarios
+    try:
+        d = dados_mods(mods)
+        for idioma in ('pt', 'en'):
+            io.open(destino(idioma, 'mods-windhawk.svg'), 'w', encoding='utf-8', newline='\n').write(card_mods(d, idioma))
+        print('mods: %(usuarios)d usuarios | %(codigo)d linhas | %(versoes)d versoes | %(prs)d PRs | '
+              '%(idiomas)d idiomas | %(dias)d dias' % d)
+    except Exception as e:
+        # um arquivo ou a API fora do ar: o card de ontem continua valendo
+        print('::warning::card dos mods não atualizado hoje: %s' % e)
+        d = None
+    return usuarios, d
 
 
-def grava_numeros(valores, meses, usuarios):
-    """scripts/numeros.json alimenta o texto do README (gera_readme.py). Se o
-    catálogo do Windhawk falhou hoje, a ordem dos mods fica a de ontem."""
+def grava_numeros(valores, meses, windhawk):
+    """scripts/numeros.json alimenta o texto do README (gera_readme.py). O que
+    falhar hoje (catálogo do Windhawk, código dos mods) fica com o valor de ontem."""
     caminho = os.path.join(RAIZ, 'scripts', 'numeros.json')
-    if usuarios is None:
-        try:
-            usuarios = json.load(io.open(caminho, encoding='utf-8')).get('windhawk', {})
-        except (IOError, ValueError):
-            usuarios = {}
+    try:
+        ontem = json.load(io.open(caminho, encoding='utf-8'))
+    except (IOError, ValueError):
+        ontem = {}
+    usuarios, mods = windhawk
     n = dict(repos=int(valores[0]), meses=meses, contrib=int(valores[1]), dias=int(valores[2]),
-             privadas=int(valores[3]), windhawk=usuarios)
+             privadas=int(valores[3]),
+             windhawk=usuarios if usuarios is not None else ontem.get('windhawk', {}),
+             mods=mods if mods is not None else ontem.get('mods', {}))
     io.open(caminho, 'w', encoding='utf-8', newline='\n').write(json.dumps(n, indent=2) + u'\n')
 
 

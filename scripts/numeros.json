@@ -5,7 +5,35 @@
   "dias": 151,
   "privadas": 757,
   "windhawk": {
-    "alt-tab-flip-3d": 8190,
-    "mac-island-dock": 12058
+    "alt-tab-flip-3d": 8521,
+    "mac-island-dock": 12653
+  },
+  "mods": {
+    "usuarios": 21217,
+    "media": 4.830578512396694,
+    "avaliacoes": 726,
+    "codigo": 90550,
+    "versoes": 11,
+    "prs": 11,
+    "idiomas": 7,
+    "dias": 24,
+    "n_mods": 3,
+    "por_mod": [
+      {
+        "id": "mac-island-dock",
+        "nome": "Mac Island & Dock",
+        "usuarios": 12653
+      },
+      {
+        "id": "alt-tab-flip-3d",
+        "nome": "Alt+Tab Flip 3D (Vista Style)",
+        "usuarios": 8521
+      },
+      {
+        "id": "windows-terminal-start-minimized",
+        "nome": "Windows Terminal Start Minimized",
+        "usuarios": 43
+      }
+    ]
   }
 }
