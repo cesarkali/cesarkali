@@ -33,4 +33,8 @@ desktop.ini
 # do README). Sem eles versionados, a atualização automática para.
 scripts/gera_pecas.py
 scripts/gera_retrato.py
+scripts/gera_idioma.py
 scripts/allay.b64
+
+# rascunhos e prévias das versões do README
+/_previas/
