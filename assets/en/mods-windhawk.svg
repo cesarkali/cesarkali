@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="21,217 people using the 3 mods; 4.8 out of 5 stars, 90,550 lines of C++, 11 versions released, 7 languages, 25 days live, 3 mods published.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="22,126 people using the 3 mods; 4.8 out of 5 stars, 90,550 lines of C++, 11 versions released, 7 languages, 26 days live, 3 mods published.">
   <title>THE WINDHAWK MODS IN NUMBERS</title>
   <style>
     .h { font-family: 'Cascadia Mono','JetBrains Mono',Consolas,'SF Mono','Roboto Mono',monospace; font-size: 11px; letter-spacing: 2.4px; }
@@ -14,22 +14,22 @@
   <rect x=".5" y=".5" width="999" height="329" rx="14" fill="#080C14" stroke="#5AB4FF" stroke-opacity=".28"/>
   <path d="M15 .5 H985" stroke="#FFFFFF" stroke-opacity=".07"/>
   <text x="36" y="40" class="h" fill="#5AB4FF">THE WINDHAWK MODS IN NUMBERS</text>
-  <text x="964" y="40" class="h" fill="#6E8099" text-anchor="end">UPDATED 30 OCT 2026</text>
+  <text x="964" y="40" class="h" fill="#6E8099" text-anchor="end">UPDATED 31 OCT 2026</text>
   <path d="M36 58 H964" stroke="#FFFFFF" stroke-opacity=".08"/>
-  <text x="32" y="140" class="big">21,217</text>
+  <text x="32" y="140" class="big">22,126</text>
   <text x="36" y="168" class="hl">people using the 3 mods</text>
-  <rect x="36.0" y="186" width="188.8" height="8" rx="4" fill="#5AB4FF"><animate attributeName="width" values="0;188.8" dur="1.2s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="226.8" y="186" width="126.5" height="8" rx="4" fill="#A9D6FF"><animate attributeName="width" values="0;126.5" dur="1.2s" begin="0.15s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="355.4" y="186" width="2.0" height="8" rx="4" fill="#3D5878"><animate attributeName="width" values="0;2.0" dur="1.2s" begin="0.30s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>
-  <circle cx="40" cy="218.0" r="4" fill="#5AB4FF"/><text x="52" y="222.0" class="g">Mac Island &amp; Dock</text><text x="356" y="222.0" class="q">12,653 · 60%</text>
-  <circle cx="40" cy="240.0" r="4" fill="#A9D6FF"/><text x="52" y="244.0" class="g">Alt+Tab Flip 3D (Vista Style)</text><text x="356" y="244.0" class="q">8,521 · 40%</text>
+  <rect x="36.0" y="186" width="189.4" height="8" rx="4" fill="#5AB4FF"><animate attributeName="width" values="0;189.4" dur="1.2s" begin="0.00s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="227.4" y="186" width="126.0" height="8" rx="4" fill="#A9D6FF"><animate attributeName="width" values="0;126.0" dur="1.2s" begin="0.15s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect><rect x="355.4" y="186" width="2.0" height="8" rx="4" fill="#3D5878"><animate attributeName="width" values="0;2.0" dur="1.2s" begin="0.30s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>
+  <circle cx="40" cy="218.0" r="4" fill="#5AB4FF"/><text x="52" y="222.0" class="g">Mac Island &amp; Dock</text><text x="356" y="222.0" class="q">13,235 · 60%</text>
+  <circle cx="40" cy="240.0" r="4" fill="#A9D6FF"/><text x="52" y="244.0" class="g">Alt+Tab Flip 3D (Vista Style)</text><text x="356" y="244.0" class="q">8,848 · 40%</text>
   <circle cx="40" cy="262.0" r="4" fill="#3D5878"/><text x="52" y="266.0" class="g">Windows Terminal Start Minimized</text><text x="356" y="266.0" class="q">43 · 0%</text>
   <path d="M412 80 V284" stroke="#FFFFFF" stroke-opacity=".08"/>
   <path d="M444 172 H964" stroke="#FFFFFF" stroke-opacity=".08"/>
   <path d="M608 80 V284 M784 80 V284" stroke="#FFFFFF" stroke-opacity=".05"/>
-  <text x="444" y="118" class="m">4.8</text><path d="M523.00 95.00 L520.62 100.72 L514.44 101.22 L519.15 105.25 L517.71 111.28 L523.00 108.05 L528.29 111.28 L526.85 105.25 L531.56 101.22 L525.38 100.72 Z" fill="#FFC857"/><text x="444" y="142" class="r">out of 5 stars</text><text x="444" y="160" class="s">average of 726 ratings</text>
+  <text x="444" y="118" class="m">4.8</text><path d="M523.00 95.00 L520.62 100.72 L514.44 101.22 L519.15 105.25 L517.71 111.28 L523.00 108.05 L528.29 111.28 L526.85 105.25 L531.56 101.22 L525.38 100.72 Z" fill="#FFC857"/><text x="444" y="142" class="r">out of 5 stars</text><text x="444" y="160" class="s">average of 756 ratings</text>
   <text x="620" y="118" class="m">90,550</text><text x="620" y="142" class="r">lines of C++</text><text x="620" y="160" class="s">in 3 open source files</text>
   <text x="796" y="118" class="m">11</text><text x="796" y="142" class="r">versions released</text><text x="796" y="160" class="s">11 PRs merged into Windhawk</text>
   <text x="444" y="222" class="m">7</text><text x="444" y="246" class="r">languages</text><text x="444" y="264" class="s">in the island&apos;s interface</text>
-  <text x="620" y="222" class="m">25</text><text x="620" y="246" class="r">days live</text><text x="620" y="264" class="s">since the first mod</text>
+  <text x="620" y="222" class="m">26</text><text x="620" y="246" class="r">days live</text><text x="620" y="264" class="s">since the first mod</text>
   <text x="796" y="222" class="m">3</text><text x="796" y="246" class="r">mods published</text><text x="796" y="264" class="s">in the official catalog</text>
   <path d="M36 296 H964" stroke="#FFFFFF" stroke-opacity=".08"/>
   <text x="36" y="318" class="f">All open source in the official Windhawk repository. Every release is reviewed by a maintainer before it reaches you.</text>
