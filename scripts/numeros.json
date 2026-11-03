@@ -1,38 +1,38 @@
 {
-  "repos": 41,
+  "repos": 42,
   "meses": 9,
-  "contrib": 1077,
+  "contrib": 1085,
   "dias": 155,
-  "privadas": 783,
+  "privadas": 790,
   "windhawk": {
-    "alt-tab-flip-3d": 9670,
-    "mac-island-dock": 14396
+    "alt-tab-flip-3d": 10036,
+    "mac-island-dock": 15174
   },
   "mods": {
-    "usuarios": 24109,
-    "media": 4.81750924784217,
-    "avaliacoes": 811,
+    "usuarios": 25254,
+    "media": 4.821556886227545,
+    "avaliacoes": 835,
     "codigo": 90550,
     "versoes": 11,
     "prs": 11,
     "idiomas": 7,
-    "dias": 28,
+    "dias": 29,
     "n_mods": 3,
     "por_mod": [
       {
         "id": "mac-island-dock",
         "nome": "Mac Island & Dock",
-        "usuarios": 14396
+        "usuarios": 15174
       },
       {
         "id": "alt-tab-flip-3d",
         "nome": "Alt+Tab Flip 3D (Vista Style)",
-        "usuarios": 9670
+        "usuarios": 10036
       },
       {
         "id": "windows-terminal-start-minimized",
         "nome": "Windows Terminal Start Minimized",
-        "usuarios": 43
+        "usuarios": 44
       }
     ]
   }
