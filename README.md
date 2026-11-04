@@ -66,7 +66,7 @@ The third one, [Windows Terminal Start Minimized](https://windhawk.net/mods/wind
 | **[Financial Kali](https://kali.caliberda.com.br)** | multi-company finance management with an AI assistant, on the web and as a native app |
 | **[FlowVoice](https://flowvoice.caliberda.com.br/)** | AI voice dictation into any Windows field, offline if you want · 15 releases · [code](https://github.com/cesarkali/Flow-Voice) |
 | **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | Chrome extension that groups tabs by subject, with the AI running in the browser itself · [code](https://github.com/cesarkali/Semantic-Tab-Grouper) |
-| **[PMTT](https://pmtt.caliberda.com.br)** | records the invisible work of people who build products · [code](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
+| **[PMTT](https://pmtt.caliberda.com.br)** | records the invisible work of people who build products |
 | **[The Four Temperaments](https://qt.caliberda.com.br/)** | a self-knowledge inventory with 128 questions, all in the browser |
 | **[CNPJ API](https://ccnpj.caliberda.com.br/)** | data on any Brazilian company from its tax ID · [code](https://github.com/cesarkali/ccnpj) |
 
@@ -169,7 +169,7 @@ O terceiro, o [Windows Terminal iniciar minimizado](https://windhawk.net/mods/wi
 | **[Financial Kali](https://kali.caliberda.com.br)** | gestão financeira multiempresa, com assistente de IA, na web e em app nativo |
 | **[FlowVoice](https://flowvoice.caliberda.com.br/)** | ditado por voz com IA em qualquer campo do Windows, offline se quiser · 15 versões publicadas · [código](https://github.com/cesarkali/Flow-Voice) |
 | **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | extensão do Chrome que agrupa abas pelo assunto, com a IA rodando no próprio navegador · [código](https://github.com/cesarkali/Semantic-Tab-Grouper) |
-| **[PMTT](https://pmtt.caliberda.com.br)** | registra o trabalho invisível de quem faz produto · [código](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
+| **[PMTT](https://pmtt.caliberda.com.br)** | registra o trabalho invisível de quem faz produto |
 | **[Os Quatro Temperamentos](https://qt.caliberda.com.br/)** | inventário de autoconhecimento com 128 perguntas, tudo no navegador |
 | **[CNPJ API](https://ccnpj.caliberda.com.br/)** | dados de qualquer empresa brasileira pelo CNPJ · [código](https://github.com/cesarkali/ccnpj) |
 
