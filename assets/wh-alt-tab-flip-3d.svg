@@ -22,6 +22,6 @@
   <text x="606" y="67.5" class="d">1</text><rect x="620" y="63.0" width="190" height="4" rx="2" fill="#FFFFFF" opacity=".08"/><rect x="620" y="63.0" width="1.7" height="4" rx="2" fill="#AFC0D6"><animate attributeName="width" values="0;1.7" dur="1.1s" begin="0.32s" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>
   <path d="M846 18 V70" stroke="#FFFFFF" stroke-opacity=".08"/>
   <rect x="872" y="24" width="100" height="24" rx="12" fill="#5AB4FF" fill-opacity=".08" stroke="#5AB4FF" stroke-opacity=".45"/>
-  <text x="922" y="40" class="v">v1.7.2</text>
+  <text x="922" y="40" class="v">v1.7.3</text>
   <text x="922" y="70" class="l" text-anchor="middle">DADOS DE 3 NOV</text>
 </svg>

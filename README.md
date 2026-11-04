@@ -43,7 +43,12 @@ I am a Product Analyst at **Bitz Softwares**: my job is to understand the proble
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D running: windows fly into a 3D stack"></a>
 
-The third one, [Windows Terminal Start Minimized](https://windhawk.net/mods/windows-terminal-start-minimized), is a small one: it opens Windows Terminal minimized at sign-in. [All three together on one page](https://github.com/cesarkali/windhawk-mods-showcase).
+<a href="https://windhawk.net/mods/ai-voice-typing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/d-voice-dark.svg?v=wh"><img src="assets/en/d-voice-light.svg?v=wh" width="100%" alt="AI Voice Typing"></picture></a><br>
+<a href="https://windhawk.net/mods/ai-voice-typing"><img src="assets/en/wh-ai-voice-typing.svg" width="100%" alt="AI Voice Typing on Windhawk: users and ratings"></a>
+
+<a href="https://windhawk.net/mods/ai-voice-typing"><img src="assets/windhawk-voice-typing.webp" width="100%" alt="AI Voice Typing running: the words show up live while you speak, then the cleaned-up text is pasted at the cursor"></a>
+
+There is also a small one, [Windows Terminal Start Minimized](https://windhawk.net/mods/windows-terminal-start-minimized): it opens Windows Terminal minimized at sign-in. [All four together on one page](https://github.com/cesarkali/windhawk-mods-showcase).
 
 <a href="https://github.com/cesarkali/windhawk-mods-showcase"><img src="assets/en/mods-windhawk.svg" width="100%" alt="The Windhawk mods in numbers"></a>
 
@@ -64,11 +69,11 @@ The third one, [Windows Terminal Start Minimized](https://windhawk.net/mods/wind
 | Project | What it is |
 |---|---|
 | **[Financial Kali](https://kali.caliberda.com.br)** | multi-company finance management with an AI assistant, on the web and as a native app |
-| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | AI voice dictation into any Windows field, offline if you want · 15 releases · [code](https://github.com/cesarkali/Flow-Voice) |
+| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | AI voice dictation into any Windows field, offline if you want · 17 releases · [code](https://github.com/cesarkali/Flow-Voice) |
 | **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | Chrome extension that groups tabs by subject, with the AI running in the browser itself · [code](https://github.com/cesarkali/Semantic-Tab-Grouper) |
-| **[PMTT](https://pmtt.caliberda.com.br)** | records the invisible work of people who build products |
+| **[PMTT](https://pmtt.caliberda.com.br)** | records the invisible work of people who build products · [code](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
 | **[The Four Temperaments](https://qt.caliberda.com.br/)** | a self-knowledge inventory with 128 questions, all in the browser |
-| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | data on any Brazilian company from its tax ID |
+| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | data on any Brazilian company from its tax ID · [code](https://github.com/cesarkali/ccnpj) |
 
 <br>
 
@@ -90,7 +95,7 @@ Sites for creators and local businesses: [Isa Titon](https://isatiton.com.br), [
 
 ### The numbers
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="42 / 1085 / 155 / 790"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="42 / 1284 / 156 / 972"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg?v=hub"><img src="assets/en/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
@@ -146,7 +151,12 @@ Sou Product Analyst na **Bitz Softwares**: meu trabalho é entender o problema a
 
 <a href="https://windhawk.net/mods/alt-tab-flip-3d"><img src="assets/windhawk-flip3d.gif" width="100%" alt="Alt+Tab Flip 3D funcionando: as janelas voam para uma pilha 3D"></a>
 
-O terceiro, o [Windows Terminal iniciar minimizado](https://windhawk.net/mods/windows-terminal-start-minimized), é um menor: abre o Windows Terminal já minimizado no logon. [Os três juntos, numa página só](https://github.com/cesarkali/windhawk-mods-showcase).
+<a href="https://windhawk.net/mods/ai-voice-typing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/d-voice-dark.svg?v=wh"><img src="assets/d-voice-light.svg?v=wh" width="100%" alt="AI Voice Typing"></picture></a><br>
+<a href="https://windhawk.net/mods/ai-voice-typing"><img src="assets/wh-ai-voice-typing.svg" width="100%" alt="AI Voice Typing no Windhawk: usuários e avaliações"></a>
+
+<a href="https://windhawk.net/mods/ai-voice-typing"><img src="assets/windhawk-voice-typing.webp" width="100%" alt="AI Voice Typing funcionando: as palavras aparecem ao vivo enquanto você fala e o texto limpo é colado no cursor"></a>
+
+Tem também um menor, o [Windows Terminal iniciar minimizado](https://windhawk.net/mods/windows-terminal-start-minimized): abre o Windows Terminal já minimizado no logon. [Os quatro juntos, numa página só](https://github.com/cesarkali/windhawk-mods-showcase).
 
 <a href="https://github.com/cesarkali/windhawk-mods-showcase"><img src="assets/mods-windhawk.svg" width="100%" alt="Os mods do Windhawk em números"></a>
 
@@ -167,11 +177,11 @@ O terceiro, o [Windows Terminal iniciar minimizado](https://windhawk.net/mods/wi
 | Projeto | O que é |
 |---|---|
 | **[Financial Kali](https://kali.caliberda.com.br)** | gestão financeira multiempresa, com assistente de IA, na web e em app nativo |
-| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | ditado por voz com IA em qualquer campo do Windows, offline se quiser · 15 versões publicadas · [código](https://github.com/cesarkali/Flow-Voice) |
+| **[FlowVoice](https://flowvoice.caliberda.com.br/)** | ditado por voz com IA em qualquer campo do Windows, offline se quiser · 17 versões publicadas · [código](https://github.com/cesarkali/Flow-Voice) |
 | **[Semantic Tab Grouper](https://chromewebstore.google.com/detail/semantic-tab-grouper/illkdfiegklhcjogdhplihjekfjdocgk)** | extensão do Chrome que agrupa abas pelo assunto, com a IA rodando no próprio navegador · [código](https://github.com/cesarkali/Semantic-Tab-Grouper) |
-| **[PMTT](https://pmtt.caliberda.com.br)** | registra o trabalho invisível de quem faz produto |
+| **[PMTT](https://pmtt.caliberda.com.br)** | registra o trabalho invisível de quem faz produto · [código](https://github.com/cesarkali/Product-Manager-Timer-Tracker) |
 | **[Os Quatro Temperamentos](https://qt.caliberda.com.br/)** | inventário de autoconhecimento com 128 perguntas, tudo no navegador |
-| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | dados de qualquer empresa brasileira pelo CNPJ |
+| **[CNPJ API](https://ccnpj.caliberda.com.br/)** | dados de qualquer empresa brasileira pelo CNPJ · [código](https://github.com/cesarkali/ccnpj) |
 
 <br>
 
@@ -193,7 +203,7 @@ Sites para quem cria conteúdo e para negócios locais: [Isa Titon](https://isat
 
 ### Os números
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="42 / 1085 / 155 / 790"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="42 / 1284 / 156 / 972"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=hub"><img src="assets/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 

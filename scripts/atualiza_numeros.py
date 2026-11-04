@@ -282,10 +282,10 @@ def numeros(t, itens):
 # está com o mod instalado; a nota vai de 0 a 10 e ratingBreakdown conta as
 # avaliações de 1 a 5 estrelas.
 CATALOGO_WH = 'https://mods.windhawk.net/catalog.json'
-MODS_WH = ['alt-tab-flip-3d', 'mac-island-dock']
+MODS_WH = ['alt-tab-flip-3d', 'mac-island-dock', 'ai-voice-typing']
 
 COR_WH = dict(bg='#080C14', ink='#EAF2FF', dim='#AFC0D6', mut='#6E8099', acc='#5AB4FF', star='#FFC857',
-              linha='#FFFFFF', fatias=['#5AB4FF', '#A9D6FF', '#3D5878'])
+              linha='#FFFFFF', fatias=['#5AB4FF', '#A9D6FF', '#7F9DC0', '#3D5878'])
 
 # os mods somados no card de números; as faixas de usuários saem só para MODS_WH
 MODS_TODOS = MODS_WH + ['windows-terminal-start-minimized']
@@ -409,7 +409,7 @@ TXT_NUM = {
             itens=[(u'de 5 estrelas', u'média de %(avaliacoes)s avaliações'),
                    (u'linhas de C++', u'em %(n_mods)d arquivos abertos'),
                    (u'versões publicadas', u'%(prs)d PRs aceitos no Windhawk'),
-                   (u'idiomas', u'na interface da ilha'),
+                   (u'idiomas', u'na interface dos mods'),
                    (u'dias no ar', u'desde o primeiro mod'),
                    (u'mods publicados', u'no catálogo oficial')],
             fim=u'Tudo em código aberto no repositório oficial do Windhawk. Cada versão passa pela revisão de um mantenedor antes de chegar a você.'),
@@ -418,7 +418,7 @@ TXT_NUM = {
             itens=[(u'out of 5 stars', u'average of %(avaliacoes)s ratings'),
                    (u'lines of C++', u'in %(n_mods)d open source files'),
                    (u'versions released', u'%(prs)d PRs merged into Windhawk'),
-                   (u'languages', u'in the island&apos;s interface'),
+                   (u'languages', u'in the mods&apos; interface'),
                    (u'days live', u'since the first mod'),
                    (u'mods published', u'in the official catalog')],
             fim=u'All open source in the official Windhawk repository. Every release is reviewed by a maintainer before it reaches you.'),
@@ -437,12 +437,17 @@ def api_github(caminho):
 def linhas_de_codigo(mid):
     """Linhas não vazias do .cpp, sem o README e as configurações, que moram em
     comentários dentro do próprio arquivo. Devolve também quantos idiomas a
-    interface do mod tem (kTextLanguages), ou 1 se ele não traduz nada."""
+    interface do mod tem (kTextLanguages na ilha, a lista kUiLanguages no mod
+    de voz), ou 1 se ele não traduz nada."""
     req = urllib.request.Request(FONTE_WH % mid)
     req.add_header('User-Agent', 'perfil-%s' % USUARIO)
     with urllib.request.urlopen(req, timeout=45) as r:
-        linhas = r.read().decode('utf-8').split('\n')
+        texto = r.read().decode('utf-8')
+    linhas = texto.split('\n')
     codigo, dentro, idiomas = 0, False, 1
+    lista = texto.find('kUiLanguages[] = {')
+    if lista >= 0:
+        idiomas = texto[lista:texto.index('}', lista)].count('"') // 2
     for l in linhas:
         if '==WindhawkModReadme==' in l or '==WindhawkModSettings==' in l:
             dentro = True
@@ -506,7 +511,7 @@ def card_mods(d, idioma):
                       u'<animate attributeName="width" values="0;%.1f" dur="1.2s" begin="%.2fs" calcMode="spline" keySplines="0.2 0.7 0.3 1" fill="freeze"/></rect>'
                       % (x, w, cor, w, 0.15 * k))
         x += w + 2
-        y = 222 + k * 22
+        y = 222 + k * (22 if len(d['por_mod']) < 4 else 20)
         legenda.append(u'<circle cx="40" cy="%.1f" r="4" fill="%s"/><text x="52" y="%.1f" class="g">%s</text>'
                        u'<text x="356" y="%.1f" class="q">%s · %d%%</text>'
                        % (y - 4, cor, y, escape(m['nome']), y, milhar(m['usuarios'], idioma),
