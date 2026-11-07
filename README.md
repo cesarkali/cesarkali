@@ -19,7 +19,7 @@
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=15161A&style=flat-square" alt="VISITS">
 </div>
 
-<h3 align="center">27,940 people use my Windhawk mods</h3>
+<h3 align="center">29,134 people use my Windhawk mods</h3>
 
 <p align="center">Made in Brazil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · free, open source, and reviewed by Windhawk before every release.</p>
 
@@ -127,7 +127,7 @@ Get in touch: [julio@caliberda.com.br](mailto:julio@caliberda.com.br) · [Linked
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=15161A&style=flat-square" alt="VISITAS">
 </div>
 
-<h3 align="center">27.940 pessoas usam os meus mods do Windhawk</h3>
+<h3 align="center">29.134 pessoas usam os meus mods do Windhawk</h3>
 
 <p align="center">Feitos no Brasil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · gratuitos, de código aberto e revisados pelo Windhawk antes de cada versão.</p>
 
