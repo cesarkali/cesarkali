@@ -19,7 +19,7 @@
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITS&color=15161A&style=flat-square" alt="VISITS">
 </div>
 
-<h3 align="center">29,134 people use my Windhawk mods</h3>
+<h3 align="center">30,349 people use my Windhawk mods</h3>
 
 <p align="center">Made in Brazil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · free, open source, and reviewed by Windhawk before every release.</p>
 
@@ -95,7 +95,7 @@ Sites for creators and local businesses: [Isa Titon](https://isatiton.com.br), [
 
 ### The numbers
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="44 / 1336 / 157 / 1016"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/numeros-dark.svg?v=wh"><img src="assets/en/numeros-light.svg?v=wh" width="100%" alt="44 / 1339 / 158 / 1018"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/heatmap-dark.svg?v=hub"><img src="assets/en/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
@@ -127,7 +127,7 @@ Get in touch: [julio@caliberda.com.br](mailto:julio@caliberda.com.br) · [Linked
   <img src="https://komarev.com/ghpvc/?username=cesarkali&label=VISITAS&color=15161A&style=flat-square" alt="VISITAS">
 </div>
 
-<h3 align="center">29.134 pessoas usam os meus mods do Windhawk</h3>
+<h3 align="center">30.349 pessoas usam os meus mods do Windhawk</h3>
 
 <p align="center">Feitos no Brasil <img src="assets/idioma/br.svg" height="13" alt="Brasil"> · gratuitos, de código aberto e revisados pelo Windhawk antes de cada versão.</p>
 
@@ -203,7 +203,7 @@ Sites para quem cria conteúdo e para negócios locais: [Isa Titon](https://isat
 
 ### Os números
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="44 / 1336 / 157 / 1016"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/numeros-dark.svg?v=wh"><img src="assets/numeros-light.svg?v=wh" width="100%" alt="44 / 1339 / 158 / 1018"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heatmap-dark.svg?v=hub"><img src="assets/heatmap-light.svg?v=hub" width="100%" alt="Contribution map"></picture>
 
