@@ -1,44 +1,44 @@
 {
   "repos": 47,
   "meses": 9,
-  "contrib": 1486,
-  "dias": 168,
-  "privadas": 1140,
+  "contrib": 1492,
+  "dias": 170,
+  "privadas": 1141,
   "windhawk": {
-    "alt-tab-flip-3d": 15446,
-    "mac-island-dock": 23710,
-    "ai-voice-typing": 164
+    "alt-tab-flip-3d": 15904,
+    "mac-island-dock": 24444,
+    "ai-voice-typing": 170
   },
   "mods": {
-    "usuarios": 39380,
-    "media": 4.804693414080242,
-    "avaliacoes": 1321,
+    "usuarios": 40580,
+    "media": 4.813411078717201,
+    "avaliacoes": 1372,
     "codigo": 171591,
     "versoes": 17,
     "prs": 17,
     "idiomas": 11,
-    "dias": 43,
+    "dias": 44,
     "n_mods": 4,
     "por_mod": [
       {
         "id": "mac-island-dock",
         "nome": "Mac Island & Dock",
-        "usuarios": 23710
+        "usuarios": 24444
       },
       {
         "id": "alt-tab-flip-3d",
         "nome": "Alt+Tab Flip 3D (Vista Style)",
-        "usuarios": 15446
+        "usuarios": 15904
       },
       {
         "id": "ai-voice-typing",
         "nome": "AI Voice Typing",
-        "usuarios": 164
+        "usuarios": 170
       },
       {
         "id": "windows-terminal-start-minimized",
         "nome": "Windows Terminal Start Minimized",
-        "usuarios": 60
+        "usuarios": 62
       }
     ]
   }
